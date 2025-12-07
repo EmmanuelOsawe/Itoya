@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.swiper {
+  padding-bottom: 40px;
+}
+
+.blog-post-item {
+  height: 100%;
+}
+
+.blog-slider-one {
+  cursor: grab;
+}
+
+.blog-slider-one:active {
+  cursor: grabbing;
+}
+
+
+.blog-slider-one .swiper-wrapper {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.blog-slider-one .swiper-slide {
+  height: auto;
+}
