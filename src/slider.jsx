@@ -3,20 +3,20 @@ import { useState } from "react";
 export default function Hero() {
   const [current, setCurrent] = useState(0);
 
-  const slides = [
+const slides = [
     {
-      image: "assets/images/bg/hero-bg-slider-1.jpg",
-      title: "Build Your Dream With Our Construction Equipment",
-      text: `Aenean ligula porttitor euonsequat vitae eleifend
-      aenliquam lorem ante dapibus in viverra quis feugiat a tellus.`,
+        image: "assets/images/bg/hero-bg-slider-1.jpg",
+        title: <span style={{ color: 'white' }}>Build Your Dream With Our Construction Equipment</span>,
+        text: `Aenean ligula porttitor euonsequat vitae eleifend
+        aenliquam lorem ante dapibus in viverra quis feugiat a tellus.`,
     },
     {
-      image: "assets/images/bg/hero-bg-slider-2.jpg",
-      title: "We Provide Best Construction Equipment For You",
-      text: `Aenean ligula porttitor euonsequat vitae eleifend
-      aenliquam lorem ante dapibus in viverra quis feugiat a tellus.`,
+        image: "assets/images/bg/hero-bg-slider-2.jpg",
+        title: <span style={{ color: 'white' }}>We Provide Best Construction Equipment For You</span>,
+        text: `Aenean ligula porttitor euonsequat vitae eleifend
+        aenliquam lorem ante dapibus in viverra quis feugiat a tellus.`,
     },
-  ];
+];
 
   const nextSlide = () => {
     setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
