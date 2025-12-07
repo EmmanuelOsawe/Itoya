@@ -127,12 +127,12 @@ function App() {
                     </li>
                     <li>
                       <a
-                          class="nav-link swap-icon"
-                          href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I am intrested in your"
-                        >
-                          {" "}
-                          <i className="fab fa-whatsapp" />
-                        </a>
+                        class="nav-link swap-icon"
+                        href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I am intrested in your"
+                      >
+                        {" "}
+                        <i className="fab fa-whatsapp" />
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -2021,8 +2021,7 @@ function App() {
                     />
                   </a>
                   <p>
-                    Maecenas tempus, tellus eget condiment rhoncus, sem quam
-                    semper libero sita
+                    To get more information for our machines and equipment.
                   </p>
                   <div className="social-box">
                     <h5>Follow Us</h5>
@@ -2079,13 +2078,36 @@ function App() {
                 <div className="widget contact-info-widget mb-40">
                   <h4 className="widget-title">Contact Information</h4>
                   <ul className="contact-info-list">
-                    <li>
+                    <li
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "16px",
+                      }}
+                    >
                       <div className="icon">
-                        <i className="fas fa-paper-plane" />
+                        <i
+                          className="fas fa-paper-plane"
+                          style={{
+                            fontSize: "24px",
+                            color: "rgba(255, 255, 255, 1)",
+                          }}
+                        ></i>
                       </div>
                       <div className="info">
-                        <p>
-                          <a href="mailto:charlesitoya@gmail.com">
+                        <p
+                          style={{
+                            margin: 0,
+                            fontSize: "16px",
+                            fontWeight: "500",
+                          }}
+                        >
+                          <a
+                            href="mailto:charlesitoya@gmail.com"
+                            style={{
+                              textDecoration: "none",
+                            }}
+                          >
                             charlesitoya@gmail.com
                           </a>
                         </p>
