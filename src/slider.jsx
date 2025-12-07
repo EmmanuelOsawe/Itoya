@@ -1,18 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
 
-const slides = [
+  const slides = [
     {
-        image: "assets/images/bg/hero-bg-slider-1.jpg",
-        title: <span style={{ color: 'white' }}>Build Your Dream With Our Construction Equipment</span>,
+      image: "assets/images/bg/hero-bg-slider-1.jpg",
+      title: <span style={{ color: 'white' }}>Build Your Dream With Our Construction Equipment</span>,
     },
     {
-        image: "assets/images/bg/hero-bg-slider-2.jpg",
-        title: <span style={{ color: 'white' }}>We Provide Best Construction Equipment For You</span>,
+      image: "assets/images/bg/hero-bg-slider-2.jpg",
+      title: <span style={{ color: 'white' }}>We Provide Best Construction Equipment For You</span>,
     },
-];
+  ];
 
   const nextSlide = () => {
     setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
@@ -21,6 +21,11 @@ const slides = [
   const prevSlide = () => {
     setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
+
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000); // Auto-slide every 5 seconds
+    return () => clearInterval(interval);
+  }, [slides.length]);
 
   return (
     <section className="hero-area">
