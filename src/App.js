@@ -1,0 +1,1389 @@
+import logo from './logo.svg';
+import './App.css';
+import Hero from './slider.jsx';
+
+function App() {
+  return (
+  <div className="App">
+
+  <header className="header-area-one">
+    <div className="header-top-bar">
+      <div className="container-fluid">
+        <div className="row align-items-center">
+          <div className="col-lg-7">
+            <div className="top-left">
+              <span><i className="fas fa-map-marker-alt" /> Washington DC, The United States</span>
+              <span><i className="fas fa-phone" /><a href="tel:+70122223333">+701-1111-2222-3333</a></span>
+            </div>
+          </div>
+          <div className="col-lg-5">
+            <div className="top-right">
+              <ul className="d-flex align-items-center justify-content-end">
+                <li>
+                  <div className="lang-dropdown">
+                    <div className="lang"><img src="assets/images/lang.png" alt="lang" /></div>
+                    <select>
+                      <option value={0o1}>Eng</option>
+                      <option value={0o2}>Ger</option>
+                    </select>
+                  </div>
+                </li>
+                <li>
+                  <a href="cart.html" className="cart-btn" target="_self" title="Go to cart"><i className="fas fa-shopping-cart" />
+                    <span className="count">02</span>
+                  </a>
+                </li>
+                <li><a href="login.html" target="_self" title="Login">Login</a></li>
+                <li><a href="singup.html" target="_self" title="Signup">Signup</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="header-navigation">
+      <div className="container-fluid pl-0 pr-0">
+        <div className="primary-menu d-flex align-items-center justify-content-between">
+          <div className="site-branding">
+            <a href="index.html" className="brand-logo" target="_self" title="Brand Logo"><img src="assets/images/logo-1.png" alt="Brand Logo" /></a>
+          </div>
+          <div className="nav-menu">
+            <div className="navbar-close"><i className="fal fa-times" /></div>
+            <nav className="main-menu">
+              <ul>
+                <li className="menu-item menu-item-has-children">
+                  <a href="index.html#" className="active">Home</a>
+                  <ul className="sub-menu">
+                    <li><a href="index.html">Home 01</a></li>
+                    <li><a href="index-2.html">Home 02</a></li>
+                  </ul>
+                </li>
+                <li className="menu-item menu-item-has-children">
+                  <a href="index.html#">Equipment</a>
+                  <ul className="sub-menu">
+                    <li><a href="equipments-list.html">Equipment</a></li>
+                    <li><a href="equipments-details.html">Equipment Details</a></li>
+                  </ul>
+                </li>
+                <li className="menu-item menu-item-has-children">
+                  <a href="index.html#">Shop</a>
+                  <ul className="sub-menu">
+                    <li><a href="shop.html">Our Shop</a></li>
+                    <li><a href="shop-details.html">Shop Details</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                  </ul>
+                </li>
+                <li className="menu-item menu-item-has-children">
+                  <a href="index.html#">Pages</a>
+                  <ul className="sub-menu">
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="team.html">Our Team</a></li>
+                    <li><a href="faq.html">FAQ's</a></li>
+                    <li><a href="404-error.html">Error 404</a></li>
+                    <li><a href="coming-soon.html">Coming Soon</a></li>
+                    <li><a href="index.html#">User</a>
+                      <ul className="sub-menu">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="singup.html">Signup</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li className="menu-item menu-item-has-children">
+                  <a href="index.html#">Blog</a>
+                  <ul className="sub-menu">
+                    <li><a href="blogs.html">Our Blog</a></li>
+                    <li><a href="blog-details.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li className="menu-item"><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div className="navbar-toggler">
+            <span /><span /><span />
+          </div>
+          <div className="header-right-nav">
+            <div className="social-box">
+              <ul className="social-link">
+                <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></a>
+                </li>
+                <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
+                <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  {/*====== End header Section ======*/}
+  {/*====== Start Hero Section ======*/}
+
+  <Hero />
+
+  {/*====== End Hero Section ======*/}
+  {/*====== Start About Section ======*/}
+  <section className="about-area pt-130 pb-80">
+    <div className="container">
+      <div className="row gx-xl-5">
+        <div className="col-lg-7" data-aos="fade-up">
+          <div className="about-img-box about-img-box-one mb-50">
+            <div className="about-img about-img-one">
+              <img src="assets/images/about/about-1.jpg" alt="about image" />
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-5" data-aos="fade-up">
+          <div className="about-content-box about-content-box-one mb-50">
+            <div className="section-title mb-40">
+              <span className="sub-title"><span className="sub-bg">Who</span> Are We?</span>
+              <h2 className="mb-0">We Have 30+ Years of Industrial Experience</h2>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.
+            </p>
+            <p>
+              Letraset sheets containing Lorem Ipsum passages, and more recently with publishing software like PageMaker.
+            </p>
+            <div className="block-quote mt-25">
+              <h5>“ Wmet minim ollit non deserunt ullamco est aliqua dolor do amet sint. Velit officia
+                consequat denivelit mollit. Exercitation veniam consequat sunt nostrud vquis nostrud
+                exercitation “</h5>
+            </div>
+            <a href="contact.html" target="_self" title="What we do" className="main-btn">What We Do</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End About Section ======*/}
+  {/*====== Start Working Process Section ======*/}
+  <section className="working-process light-gray pt-130 pb-90">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-7" data-aos="fade-up">
+          <div className="section-title text-center mb-55">
+            <span className="sub-title"><span className="sub-bg">Working</span> Process</span>
+            <h2>Get Your Rentals In Easy 4 Steps</h2>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+              consequat duis enim velit mollit</p>
+          </div>
+        </div>
+      </div>
+      <div className="row justify-content-between">
+        <div className="col-lg-2 col-md-3 process-column" data-aos="fade-up">
+          <div className="process-item process-item-one mb-40">
+            <div className="count-box">
+              <div className="icon">
+                <i className="flaticon-search" />
+              </div>
+              <div className="process-count">01</div>
+            </div>
+            <div className="content text-center">
+              <h4>Search Your
+                Equipment</h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-3 process-column" data-aos="fade-up">
+          <div className="process-item process-item-one mb-40">
+            <div className="count-box">
+              <div className="icon">
+                <i className="flaticon-align" />
+              </div>
+              <div className="process-count">02</div>
+            </div>
+            <div className="content text-center">
+              <h4>Compare Your
+                Selection</h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-3 process-column" data-aos="fade-up">
+          <div className="process-item process-item-one mb-40">
+            <div className="count-box">
+              <div className="icon">
+                <i className="flaticon-excavator-2" />
+              </div>
+              <div className="process-count">03</div>
+            </div>
+            <div className="content text-center">
+              <h4>Reserve The
+                Equipment</h4>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-2 col-md-3 process-column" data-aos="fade-up">
+          <div className="process-item process-item-one mb-40">
+            <div className="count-box">
+              <div className="icon">
+                <i className="flaticon-presentation" />
+              </div>
+              <div className="process-count">04</div>
+            </div>
+            <div className="content text-center">
+              <h4>Get Start Your
+                Project</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End Working Process Section ======*/}
+  {/*====== Start Features Section ======*/}
+  <section className="features-area pt-130 pb-90">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-7" data-aos="fade-up">
+          <div className="section-title text-center mb-55">
+            <span className="sub-title"><span className="sub-bg">Awesome</span> Features</span>
+            <h2>Most Featured Equipment</h2>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Velit officia consequat duis enim velit mollit</p>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+          <div className="features-item features-item-one mb-40">
+            <div className="icon">
+              <i className="flaticon-excavator-1" />
+            </div>
+            <div className="content">
+              <h4>Precision Service</h4>
+              <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+          <div className="features-item features-item-one mb-40">
+            <div className="icon">
+              <i className="flaticon-worker" />
+            </div>
+            <div className="content">
+              <h4>Fast &amp; Safety</h4>
+              <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4 col-md-6 col-sm-12" data-aos="fade-up">
+          <div className="features-item features-item-one mb-40">
+            <div className="icon">
+              <i className="flaticon-salary" />
+            </div>
+            <div className="content">
+              <h4>Economically Effect</h4>
+              <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End Features Section ======*/}
+  {/*====== Start Counter Section ======*/}
+  <section className="counter-area bg-with-overlay bg_cover pt-130 pb-90" style={{backgroundImage: 'url(assets/images/bg/counter-bg-1.jpg)'}}>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
+          <div className="counter-item counter-item-one mb-40 text-center">
+            <div className="icon">
+              <i className="flaticon-excavator-1" />
+            </div>
+            <div className="content">
+              <h2><span className="count">2500</span>+</h2>
+              <h5>Equipment</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
+          <div className="counter-item counter-item-one mb-40 text-center">
+            <div className="icon">
+              <i className="flaticon-placeholder" />
+            </div>
+            <div className="content">
+              <h2><span className="count">175</span>+</h2>
+              <h5>Coverage Area</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
+          <div className="counter-item counter-item-one mb-40 text-center">
+            <div className="icon">
+              <i className="flaticon-building" />
+            </div>
+            <div className="content">
+              <h2><span className="count">596</span>+</h2>
+              <h5>Total Brunch</h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-3 col-sm-6 counter-column" data-aos="fade-up">
+          <div className="counter-item counter-item-one mb-40 text-center">
+            <div className="icon">
+              <i className="flaticon-worker-1" />
+            </div>
+            <div className="content">
+              <h2><span className="count">1580</span></h2>
+              <h5>Company Staffs</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End Counter Section ======*/}
+  {/*====== Start Pricing Section ======*/}
+  <section className="pricing-area pt-130 pb-90">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-6" data-aos="fade-up">
+          <div className="section-title text-center mb-50">
+            <span className="sub-title"><span className="sub-bg">Awesome</span> Equipment</span>
+            <h2>Featured Rental Equipment</h2>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Velit officia consequat duis enim velit mollit</p>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="pricing-nav-filter mb-60" data-aos="fade-up">
+            <ul className="nav nav-tabs">
+              <li className="nav-item">
+                <a className="nav-link active" data-toggle="tab" href="index.html#all">All Equipment </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-toggle="tab" href="index.html#cat1">Lorry trucks</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-toggle="tab" href="index.html#cat2">Cranes</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-toggle="tab" href="index.html#cat3">Forklifts</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" data-toggle="tab" href="index.html#cat4">Excavators</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="tab-content" id="myTabContent" data-aos="fade-up">
+            <div className="tab-pane fade show active" id="all">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-1.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$159</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck with AC</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-2.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$254</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Range Excavator</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-3.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$315</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck High Line Series</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="tab-pane fade" id="cat1">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-4.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$159</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck with AC</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-5.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$254</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Range Excavator</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-6.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$315</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck High Line Series</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="tab-pane fade" id="cat2">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-1.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$159</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck with AC</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-2.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$254</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Range Excavator</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-3.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$315</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck High Line Series</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="tab-pane fade" id="cat3">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-4.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$159</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck with AC</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-5.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$254</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Range Excavator</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-6.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$315</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck High Line Series</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="tab-pane fade" id="cat4">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-1.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$159</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck with AC</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-2.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$254</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Range Excavator</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                  <div className="pricing-item pricing-item-one mb-40">
+                    <div className="pricing-img">
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-3.jpg" alt="Pricing image" /></a>
+                    </div>
+                    <div className="pricing-info">
+                      <div className="price-info">
+                        <h5>Price</h5>
+                        <span>Starts Form</span>
+                        <div className="price-tag">
+                          <h4>$315</h4>
+                        </div>
+                      </div>
+                      <div className="pricing-body">
+                        <h5 className="title">Mining Truck High Line Series</h5>
+                        <div className="price-option">
+                          <span className="span-btn day">$130/Day</span>
+                          <span className="span-btn active-btn week">$350/Week</span>
+                          <span className="span-btn month">$875/Month</span>
+                        </div>
+                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <ul className="info-list">
+                          <li>Maximum Reach: 2 Meter</li>
+                          <li>Operating Weight: 0.6 Ton</li>
+                          <li>Model: Lot456</li>
+                          <li>Digging  Depth: 3.5 Meter</li>
+                          <li>Brand: Weekers</li>
+                        </ul>
+                      </div>
+                      <div className="pricing-bottom">
+                        <ul className="rating">
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><i className="fas fa-star" /></li>
+                          <li><span>5.00 (20 Rating)</span></li>
+                        </ul>
+                        <a href="equipments-details.html" target="_self" title="Reserve" className="main-btn">Reserve</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End Pricing Section ======*/}
+  {/*====== Start Testimonial Section ======*/}
+  <section className="testimonial-area light-bg pt-130 pb-130">
+    <div className="container">
+      <div className="row align-items-end">
+        <div className="col-lg-6" data-aos="fade-up">
+          <div className="section-title mb-50">
+            <span className="sub-title"><span className="sub-bg">Client</span> Feedback</span>
+            <h2>What's Our Beautiful Clients Say About Us</h2>
+          </div>
+        </div>
+        <div className="col-lg-6 mb-60" data-aos="fade-up">
+          <div className="button float-lg-right">
+            <a href="contact.html" target="_self" title="See all feedback" className="main-btn">See All Feedback</a>
+          </div>
+        </div>
+      </div>
+      <div className="row testimonial-slider-one">
+        <div className="col-lg-4" data-aos="fade-up">
+          <div className="testimonial-item testimonial-item-one">
+            <div className="testimonial-content">
+              <div className="quote">
+                <i className="flaticon-left-quote" />
+              </div>
+              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
+                goos services</p>
+              <h5>Mohona Clitar , <span className="location">USA</span></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4" data-aos="fade-up">
+          <div className="testimonial-item testimonial-item-one">
+            <div className="testimonial-content">
+              <div className="quote">
+                <i className="flaticon-left-quote" />
+              </div>
+              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
+                goos services</p>
+              <h5>Tomas Zinks , <span className="location">USA</span></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4" data-aos="fade-up">
+          <div className="testimonial-item testimonial-item-one">
+            <div className="testimonial-content">
+              <div className="quote">
+                <i className="flaticon-left-quote" />
+              </div>
+              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
+                goos services</p>
+              <h5>Cristiano Ruudo , <span className="location">USA</span></h5>
+            </div>
+          </div>
+        </div>
+        <div className="col-lg-4" data-aos="fade-up">
+          <div className="testimonial-item testimonial-item-one">
+            <div className="testimonial-content">
+              <div className="quote">
+                <i className="flaticon-left-quote" />
+              </div>
+              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
+                goos services</p>
+              <h5>Tomas Zinks , <span className="location">USA</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End Testimonial Section ======*/}
+  {/*====== Start CTA Section ======*/}
+  <section className="cta-area bg-with-overlay bg-cover pt-120 pb-130" style={{backgroundImage: 'url(assets/images/bg/cta-bg-1.jpg)'}}>
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-8">
+          <div className="cta-content-box cta-content-box-one content-white text-center" data-aos="fade-up">
+            <h2>We Are Served Since 93 Years To
+              Clients With Trust</h2>
+            <h4>Aenean ligula porttitor euonsequat vitae eleifend aenliquam lorem</h4>
+            <a href="contact.html" target="_self" title="Get a quote" className="main-btn main-btn-primary">Get A Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End CTA Section ======*/}
+  {/*====== Start Blog Section ======*/}
+  <section className="blog-area pt-130 pb-130">
+    <div className="container">
+      <div className="row align-items-end">
+        <div className="col-lg-6" data-aos="fade-up">
+          <div className="section-title mb-50">
+            <span className="sub-title"><span className="sub-bg">Latest</span> News</span>
+            <h2>Latest News &amp; Updates</h2>
+          </div>
+        </div>
+        <div className="col-lg-6" data-aos="fade-up">
+          <div className="blog-arrows-one mb-60" />
+        </div>
+      </div>
+      <div className="row blog-slider-one">
+        <div className="px-3" data-aos="fade-up">
+          <div className="blog-post-item blog-post-item-one">
+            <div className="post-thumbnail">
+              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-1.jpg" alt="Blog Image" /></a>
+              <a href="blog-details.html" className="cat-btn" title="Excavator" target="_self">Excavator</a>
+            </div>
+            <div className="entry-content">
+              <h3 className="title"><a href="blog-details.html">Best equipment rental for
+                  your next project</a></h3>
+              <div className="post-meta">
+                <ul>
+                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
+                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
+                </ul>
+              </div>
+              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
+                ipsum. Nam quam.</p>
+              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div className="px-3" data-aos="fade-up">
+          <div className="blog-post-item blog-post-item-one">
+            <div className="post-thumbnail">
+              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-2.jpg" alt="Blog Image" /></a>
+              <a href="blog-details.html" className="cat-btn" title="Worker" target="_self">Worker</a>
+            </div>
+            <div className="entry-content">
+              <h3 className="title"><a href="blog-details.html">Construction worker all
+                  time safe &amp; free</a></h3>
+              <div className="post-meta">
+                <ul>
+                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
+                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
+                </ul>
+              </div>
+              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
+                ipsum. Nam quam.</p>
+              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div className="px-3" data-aos="fade-up">
+          <div className="blog-post-item blog-post-item-one">
+            <div className="post-thumbnail">
+              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-3.jpg" alt="Blog Image" /></a>
+              <a href="blog-details.html" className="cat-btn" title="Construction" target="_self">Construction</a>
+            </div>
+            <div className="entry-content">
+              <h3 className="title"><a href="blog-details.html">Simple eqipments rental for
+                  your big project</a></h3>
+              <div className="post-meta">
+                <ul>
+                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
+                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
+                </ul>
+              </div>
+              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
+                ipsum. Nam quam.</p>
+              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div className="px-3" data-aos="fade-up">
+          <div className="blog-post-item blog-post-item-one">
+            <div className="post-thumbnail">
+              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-4.jpg" alt="Blog Image" /></a>
+              <a href="blog-details.html" className="cat-btn" title="Worker" target="_self">Worker</a>
+            </div>
+            <div className="entry-content">
+              <h3 className="title"><a href="blog-details.html">Construction worker all
+                  time safe &amp; Free</a></h3>
+              <div className="post-meta">
+                <ul>
+                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
+                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
+                </ul>
+              </div>
+              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
+                ipsum. Nam quam.</p>
+              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End Blog Section ======*/}
+  {/*====== Start Sponsor Section ======*/}
+  <div className="sponsor">
+    <div className="container">
+      <div className="sponsor-slider-one">
+        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
+          <a href="contact.html" target="_self" title="Sponsor">
+            <img src="assets/images/sponsor/sponsor-1.png" alt="sponsor" />
+          </a>
+        </div>
+        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
+          <a href="contact.html" target="_self" title="Sponsor">
+            <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
+          </a>
+        </div>
+        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
+          <a href="contact.html" target="_self" title="Sponsor">
+            <img src="assets/images/sponsor/sponsor-3.png" alt="sponsor" />
+          </a>
+        </div>
+        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
+          <a href="contact.html" target="_self" title="Sponsor">
+            <img src="assets/images/sponsor/sponsor-4.png" alt="sponsor" />
+          </a>
+        </div>
+        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
+          <a href="contact.html" target="_self" title="Sponsor">
+            <img src="assets/images/sponsor/sponsor-5.png" alt="sponsor" />
+          </a>
+        </div>
+        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
+          <a href="contact.html" target="_self" title="Sponsor">
+            <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*====== End Sponsor Section ======*/}
+  {/*====== Start Newsletter Section ======*/}
+  <section className="newsletter-area pt-130">
+    <div className="container">
+      <div className="newsletter-wrapper-one">
+        <div className="row justify-content-center">
+          <div className="col-lg-8">
+            <div className="newsletter-content-box">
+              <div className="section-title text-center mb-30">
+                <h2>Subscribe Our Newsletter</h2>
+              </div>
+              <form className="newsletter-form">
+                <div className="form_group">
+                  <input type="email" className="form_control" placeholder="Enter your email" name="email" required />
+                  <button className="newsletter-btn">Subscribe Now</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*====== End Newsletter Section ======*/}
+  {/*====== Start Footer ======*/}
+  <footer className="footer-area footer-area-one bg_cover" style={{backgroundImage: 'url(assets/images/bg/footer-bg-1.jpg)'}}>
+    <div className="footer-widget">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4 col-md-6" data-aos="fade-up">
+            <div className="widget about-widget mb-40">
+              <a href="index.html" className="brand-logo"><img src="assets/images/footer-logo.png" alt="Footer Logo" /></a>
+              <p>Maecenas tempus, tellus eget condiment
+                rhoncus, sem quam semper libero sita</p>
+              <div className="social-box">
+                <h5>Follow Us</h5>
+                <ul className="social-link">
+                  <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
+                  <li><a href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></a></li>
+                  <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
+                  <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={100}>
+            <div className="widget footer-widget-nav mb-40">
+              <h4 className="widget-title">Useful Link</h4>
+              <ul className="widget-nav">
+                <li><a href="contact.html">About</a></li>
+                <li><a href="categories.html">Category</a></li>
+                <li><a href="blogs.html">Latest News</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="singup.html">Register</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={150}>
+            <div className="widget contact-info-widget mb-40">
+              <h4 className="widget-title">Contact Information</h4>
+              <ul className="contact-info-list">
+                <li>
+                  <div className="icon">
+                    <i className="fas fa-paper-plane" />
+                  </div>
+                  <div className="info">
+                    <p><a href="mailto:demotext456@gmail.com">demotext456@gmail.com</a></p>
+                    <p><a href="mailto:exapleemail@gmail.com">exapleemail@gmail.com</a></p>
+                  </div>
+                </li>
+                <li>
+                  <div className="icon">
+                    <i className="fas fa-phone" />
+                  </div>
+                  <div className="info">
+                    <p><a href="tel:123456789">+701 - 1111 - 2222 - 3333</a></p>
+                    <p><a href="tel:123456789">+802 - 2222 - 3333 - 4444</a></p>
+                  </div>
+                </li>
+                <li>
+                  <div className="icon">
+                    <i className="fas fa-map-marker-alt" />
+                  </div>
+                  <div className="info">
+                    <p>2759 Renwick Drive
+                      Pennsylvania</p>
+                    <p>450 Young Road New York</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="copyright-area">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="copyright-text text-center">
+              <p>Copyright © 2022 <a href="index.html">Renowk</a>, All Rights Reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  {/*====== End Footer ======*/}
+  {/*====== back-to-top ======*/}
+  <div className="back-to-top"><i className="fas fa-angle-up" /></div>
+  </div>
+  );
+}
+
+export default App;
