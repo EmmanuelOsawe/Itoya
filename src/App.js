@@ -12,62 +12,6 @@ function App() {
   return (
     <div className="App">
       <header className="header-area-one">
-        <div className="header-top-bar">
-          <div className="container-fluid">
-            <div className="row align-items-center">
-              <div className="col-lg-7">
-                <div className="top-left">
-                  <span>
-                    <i className="fas fa-map-marker-alt" /> Washington DC, The
-                    United States
-                  </span>
-                  <span>
-                    <i className="fas fa-phone" />
-                    <a href="tel:+70122223333">+701-1111-2222-3333</a>
-                  </span>
-                </div>
-              </div>
-              <div className="col-lg-5">
-                <div className="top-right">
-                  <ul className="d-flex align-items-center justify-content-end">
-                    <li>
-                      <div className="lang-dropdown">
-                        <div className="lang">
-                          <img src="assets/images/lang.png" alt="lang" />
-                        </div>
-                        <select>
-                          <option value={0o1}>Eng</option>
-                          <option value={0o2}>Ger</option>
-                        </select>
-                      </div>
-                    </li>
-                    <li>
-                      <a
-                        href="cart.html"
-                        className="cart-btn"
-                        target="_self"
-                        title="Go to cart"
-                      >
-                        <i className="fas fa-shopping-cart" />
-                        <span className="count">02</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="login.html" target="_self" title="Login">
-                        Login
-                      </a>
-                    </li>
-                    <li>
-                      <a href="singup.html" target="_self" title="Signup">
-                        Signup
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="header-navigation">
           <div className="container-fluid pl-0 pr-0">
             <div className="primary-menu d-flex align-items-center justify-content-between">
@@ -87,18 +31,8 @@ function App() {
                 </div>
                 <nav className="main-menu">
                   <ul>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="index.html#" className="active">
-                        Home
-                      </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="index.html">Home 01</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Home 02</a>
-                        </li>
-                      </ul>
+                    <li className="menu-item">
+                      <a href="index.html#">Home</a>
                     </li>
                     <li className="menu-item menu-item-has-children">
                       <a href="index.html#">Equipment</a>
@@ -192,19 +126,13 @@ function App() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com" target="_blank">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://linkedin.com" target="_blank">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://pinterest.com" target="_blank">
-                        <i className="fab fa-pinterest-p" />
-                      </a>
+                      <a
+                          class="nav-link swap-icon"
+                          href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I am intrested in your"
+                        >
+                          {" "}
+                          <i className="fab fa-whatsapp" />
+                        </a>
                     </li>
                   </ul>
                 </div>
@@ -239,25 +167,35 @@ function App() {
                   <span className="sub-title">
                     <span className="sub-bg">Who</span> Are We?
                   </span>
-                  <h2 className="mb-0">
-                    We Have 30+ Years of Industrial Experience
-                  </h2>
+                  <h2 className="mb-0">Caterpillar IT Solutions</h2>
                 </div>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took.
+                  6+ Years of Trusted IT Services We keep it simple: Reliable
+                  systems. Clear solutions. No nonsense.
                 </p>
                 <p>
-                  Letraset sheets containing Lorem Ipsum passages, and more
-                  recently with publishing software like PageMaker.
+                  For over 6 years, factories, warehouses, miners, construction
+                  company and big industries have counted on us for:
                 </p>
+                <ui>
+                  <li>
+                    <b>Strong networks that never go down </b>
+                  </li>
+                  <li>
+                    <b>Easy Communication</b>
+                  </li>
+                  <li>
+                    <b>Fast, honest support</b>
+                  </li>
+                  <li>
+                    <b>Quality work. Fair prices. Always on time.</b>
+                  </li>
+                </ui>
                 <div className="block-quote mt-25">
                   <h5>
-                    “ Wmet minim ollit non deserunt ullamco est aliqua dolor do
-                    amet sint. Velit officia consequat denivelit mollit.
-                    Exercitation veniam consequat sunt nostrud vquis nostrud
-                    exercitation “
+                    20+ years. Zero drama. <br />
+                    Technology that just works. <br />
+                    On time. On budget. Built to last. <br />
                   </h5>
                 </div>
                 <a
@@ -499,64 +437,11 @@ function App() {
                 <span className="sub-title">
                   <span className="sub-bg">Awesome</span> Equipment
                 </span>
-                <h2>Featured Rental Equipment</h2>
+                <h2>Featured Equipment For Sale</h2>
                 <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit
+                  Ready to own a Caterpillar that works as hard as you do?
+                  Machines for sale now tough, proven, and available today.
                 </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="pricing-nav-filter mb-60" data-aos="fade-up">
-                <ul className="nav nav-tabs">
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      data-toggle="tab"
-                      href="index.html#all"
-                    >
-                      All Equipment{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat1"
-                    >
-                      Lorry trucks
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat2"
-                    >
-                      Cranes
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat3"
-                    >
-                      Forklifts
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat4"
-                    >
-                      Excavators
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -1765,11 +1650,7 @@ function App() {
                 className="cta-content-box cta-content-box-one content-white text-center"
                 data-aos="fade-up"
               >
-                <h2>We Are Served Since 93 Years To Clients With Trust</h2>
-                <h4>
-                  Aenean ligula porttitor euonsequat vitae eleifend aenliquam
-                  lorem
-                </h4>
+                <h2>We Are Served for 6 Years To Clients With Trust</h2>
                 <a
                   href="contact.html"
                   target="_self"
@@ -2094,44 +1975,6 @@ function App() {
         </div>
       </section>
       {/*====== End Blog Section ======*/}
-      {/*====== Start Sponsor Section ======*/}
-      <div className="sponsor">
-        <div className="container">
-          <div className="sponsor-slider-one">
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-1.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-3.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-4.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-5.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*====== End Sponsor Section ======*/}
       {/*====== Start Newsletter Section ======*/}
       <section className="newsletter-area pt-130">
         <div className="container">
@@ -2190,18 +2033,12 @@ function App() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com" target="_blank">
-                          <i className="fab fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://linkedin.com" target="_blank">
-                          <i className="fab fa-linkedin-in" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://pinterest.com" target="_blank">
-                          <i className="fab fa-pinterest-p" />
+                        <a
+                          class="nav-link swap-icon"
+                          href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I am intrested in your"
+                        >
+                          {" "}
+                          <i className="fab fa-whatsapp" />
                         </a>
                       </li>
                     </ul>
@@ -2248,13 +2085,8 @@ function App() {
                       </div>
                       <div className="info">
                         <p>
-                          <a href="mailto:demotext456@gmail.com">
-                            demotext456@gmail.com
-                          </a>
-                        </p>
-                        <p>
-                          <a href="mailto:exapleemail@gmail.com">
-                            exapleemail@gmail.com
+                          <a href="mailto:charlesitoya@gmail.com">
+                            charlesitoya@gmail.com
                           </a>
                         </p>
                       </div>
@@ -2265,10 +2097,10 @@ function App() {
                       </div>
                       <div className="info">
                         <p>
-                          <a href="tel:123456789">+701 - 1111 - 2222 - 3333</a>
+                          <a href="tel:+2348164286161">+234 816 428 6161</a>
                         </p>
                         <p>
-                          <a href="tel:123456789">+802 - 2222 - 3333 - 4444</a>
+                          <a href="tel:+2347073461017">+234 707 346 1017</a>
                         </p>
                       </div>
                     </li>
@@ -2277,8 +2109,11 @@ function App() {
                         <i className="fas fa-map-marker-alt" />
                       </div>
                       <div className="info">
-                        <p>2759 Renwick Drive Pennsylvania</p>
-                        <p>450 Young Road New York</p>
+                        <p>
+                          {" "}
+                          Opp (PSIN) Dutsen Alhaji Junction, Kubwa Expressway,
+                          Abuja, Nigeria,
+                        </p>
                       </div>
                     </li>
                   </ul>
@@ -2293,7 +2128,7 @@ function App() {
               <div className="col-lg-12">
                 <div className="copyright-text text-center">
                   <p>
-                    Copyright © 2022 <a href="index.html">Renowk</a>, All Rights
+                    Copyright © 2025 <a href="index.html"></a>, All Rights
                     Reserved.
                   </p>
                 </div>
@@ -2305,8 +2140,7 @@ function App() {
       {/*====== End Footer ======*/}
       {/*====== back-to-top ======*/}
 
-     <ScrollToTop />
-     
+      <ScrollToTop />
     </div>
   );
 }
