@@ -3218,7 +3218,7 @@ ul.rating li span {
 	width: 75px;
 	height: 175px;
 	z-index: -1;
-	background: #D38307;
+	background: red;
 	clip-path: polygon(35% 31%, 34% 100%, 0% 100%);
 }
 
