@@ -22,7 +22,11 @@ function App() {
                   target="_self"
                   title="Brand Logo"
                 >
-                  <img src="assets/images/logo-1.png" alt="Brand Logo" />
+                  <img
+                    src="assets/images/logo.JPG"
+                    alt="Brand Logo"
+                    className="logo"
+                  />
                 </a>
               </div>
               <div className="nav-menu">
@@ -167,7 +171,7 @@ function App() {
                   <span className="sub-title">
                     <span className="sub-bg">Who</span> Are We?
                   </span>
-                  <h2 className="mb-0">Caterpillar IT Solutions</h2>
+                  <h2 className="mb-0">Itoya Caterpillar</h2>
                 </div>
                 <p>
                   6+ Years of Trusted IT Services We keep it simple: Reliable
@@ -2016,13 +2020,12 @@ function App() {
                 <div className="widget about-widget mb-40">
                   <a href="index.html" className="brand-logo">
                     <img
-                      src="assets/images/footer-logo.png"
-                      alt="Footer Logo"
-                    />
+                    src="assets/images/logo.JPG"
+                    alt="Brand Logo"
+                    className="logo"
+                  />
                   </a>
-                  <p>
-                    To get more information for our machines and equipment.
-                  </p>
+                  <p>To get more information for our machines and equipment.</p>
                   <div className="social-box">
                     <h5>Follow Us</h5>
                     <ul className="social-link">
