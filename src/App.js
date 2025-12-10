@@ -342,7 +342,7 @@ function App() {
                 </div>
                 <div className="content">
                   <h4>Fast &amp; Safety</h4>
-                  <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+                  <p>Our team works quickly while maintaining strict safety standards, delivering efficient service without compromising protection.</p>
                 </div>
               </div>
             </div>
