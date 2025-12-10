@@ -463,7 +463,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-1.jpg"
+                              src="assets/images/product/escavator.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -538,7 +538,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-2.jpg"
+                              src="assets/images/product/grader.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -613,7 +613,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-3.jpg"
+                              src="assets/images/product/escavator-2.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -925,7 +925,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-1.jpg"
+                              src="assets/images/product/escavator.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -1000,7 +1000,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-2.jpg"
+                              src="assets/images/product/grader.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -1075,7 +1075,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-3.jpg"
+                              src="assets/images/product/escavator-2.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -1387,7 +1387,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-1.jpg"
+                              src="assets/images/product/escavator.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -1462,7 +1462,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-2.jpg"
+                              src="assets/images/product/grader.jpg"
                               alt="Pricing image"
                             />
                           </a>
@@ -1537,7 +1537,7 @@ function App() {
                             title="Equipment Image"
                           >
                             <img
-                              src="assets/images/pricing/price-3.jpg"
+                              src="assets/images/product/escavator-2.jpg"
                               alt="Pricing image"
                             />
                           </a>
