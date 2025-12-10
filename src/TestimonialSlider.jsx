@@ -18,8 +18,8 @@ export default function TestimonialSlider() {
       location: "Nigeria"
     },
     {
-      text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
-      name: "Tomas Zinks",
+      text: "We were very satisfied with Itoya. The Caterpillar excavator performed powerfully and never broke down. I’ll gladly recommend Itoya to other contractors.",
+      name: "Emmanuel Eze",
       location: "Nigeria"
     }
   ];
