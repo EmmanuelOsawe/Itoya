@@ -8,8 +8,8 @@ export default function TestimonialSlider() {
       location: "Nigeria"
     },
     {
-      text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
-      name: "Tomas Zinks",
+      text: "Great service from Itoya. The Caterpillar bulldozer was in excellent condition and worked smoothly throughout our project. Highly reliable company.",
+      name: "Abubakar Mohammed",
       location: "Nigeria"
     },
     {
