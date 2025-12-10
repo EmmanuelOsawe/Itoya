@@ -312,9 +312,13 @@ function App() {
                   <span className="sub-bg">Awesome</span> Features
                 </span>
                 <h2>Most Featured Equipment</h2>
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit
+                <p> Itoya offers
+                  highly reliable Caterpillar equipment built for power,
+                  efficiency, and durability. Our excavators, bulldozers, wheel
+                  loaders, and backhoe loaders handle everything from digging
+                  and loading to heavy earth-moving with smooth performance.
+                  These machines are trusted by clients for delivering strong
+                  results with minimal downtime on any project.
                 </p>
               </div>
             </div>
@@ -469,10 +473,8 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">Escavator 320L</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -530,10 +532,8 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">Grader 140g</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -591,12 +591,10 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -658,10 +656,8 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">Escavator 320L</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -719,10 +715,8 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">Grader 140g</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -780,12 +774,10 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -847,7 +839,6 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">Escavator 320L</h5>
                             <ul className="info-list">
@@ -907,12 +898,10 @@ function App() {
                         </div>
                         <div className="pricing-info">
                           <div className="price-info">
-                            <div className="price-tag">
-                            </div>
+                            <div className="price-tag"></div>
                           </div>
                           <div className="pricing-body">
                             <h5 className="title">Grader 140g</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -970,12 +959,10 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -1039,7 +1026,6 @@ function App() {
                         <div className="pricing-info">
                           <div className="pricing-body">
                             <h5 className="title">Escavator 320L</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -1097,10 +1083,8 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                        
                           <div className="pricing-body">
                             <h5 className="title">Grader 140g</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -1158,12 +1142,10 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -1225,10 +1207,8 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">Escavator 320L</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -1286,10 +1266,8 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">Grader 140g</h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -1347,12 +1325,10 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            
 
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
@@ -1810,10 +1786,10 @@ function App() {
                 <div className="widget about-widget mb-40">
                   <a href="index.html" className="brand-logo">
                     <img
-                    src="assets/images/logo.JPG"
-                    alt="Brand Logo"
-                    className="logo"
-                  />
+                      src="assets/images/logo.JPG"
+                      alt="Brand Logo"
+                      className="logo"
+                    />
                   </a>
                   <p>To get more information for our machines and equipment.</p>
                   <div className="social-box">
