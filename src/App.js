@@ -469,25 +469,11 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$159</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
-                            <h5 className="title">Mining Truck with AC</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Escavator 320L</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -544,25 +530,11 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$254</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
-                            <h5 className="title">Range Excavator</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Grader 140g</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -619,27 +591,13 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$315</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -700,25 +658,11 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$159</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
-                            <h5 className="title">Mining Truck with AC</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Escavator 320L</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -775,25 +719,11 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$254</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
-                            <h5 className="title">Range Excavator</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Grader 140g</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -850,27 +780,13 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$315</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -931,25 +847,9 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$159</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
-                            <h5 className="title">Mining Truck with AC</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Escavator 320L</h5>
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1007,24 +907,13 @@ function App() {
                         </div>
                         <div className="pricing-info">
                           <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
                             <div className="price-tag">
-                              <h4>$254</h4>
                             </div>
                           </div>
                           <div className="pricing-body">
-                            <h5 className="title">Range Excavator</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Grader 140g</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1081,27 +970,13 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$315</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1162,25 +1037,10 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$159</h4>
-                            </div>
-                          </div>
                           <div className="pricing-body">
-                            <h5 className="title">Mining Truck with AC</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Escavator 320L</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1237,25 +1097,11 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$254</h4>
-                            </div>
-                          </div>
+                        
                           <div className="pricing-body">
-                            <h5 className="title">Range Excavator</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Grader 140g</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1312,27 +1158,13 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$315</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1393,25 +1225,11 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$159</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
-                            <h5 className="title">Mining Truck with AC</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Escavator 320L</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1468,25 +1286,11 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$254</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
-                            <h5 className="title">Range Excavator</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">Grader 140g</h5>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1543,27 +1347,13 @@ function App() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$315</h4>
-                            </div>
-                          </div>
+
                           <div className="pricing-body">
                             <h5 className="title">
                               Mining Truck High Line Series
                             </h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
