@@ -353,7 +353,7 @@ function App() {
                 </div>
                 <div className="content">
                   <h4>Economically Effect</h4>
-                  <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+                  <p>We offer economically effective solutions that help you reduce project costs while still getting top-quality equipment and performance.</p>
                 </div>
               </div>
             </div>
