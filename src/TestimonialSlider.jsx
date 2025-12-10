@@ -13,8 +13,8 @@ export default function TestimonialSlider() {
       location: "Nigeria"
     },
     {
-      text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
-      name: "Cristiano Ruudo",
+      text: "Itoya delivered the Caterpillar equipment right on time, and it worked perfectly with no issues. Their customer support was also very responsive. Fantastic experience.",
+      name: "Tunde Adewale",
       location: "Nigeria"
     },
     {
