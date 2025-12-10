@@ -5,22 +5,22 @@ export default function TestimonialSlider() {
     {
       text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
       name: "Mohona Clitar",
-      location: "USA"
+      location: "Nigeria"
     },
     {
       text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
       name: "Tomas Zinks",
-      location: "USA"
+      location: "Nigeria"
     },
     {
       text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
       name: "Cristiano Ruudo",
-      location: "USA"
+      location: "Nigeria"
     },
     {
       text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
       name: "Tomas Zinks",
-      location: "USA"
+      location: "Nigeria"
     }
   ];
 
