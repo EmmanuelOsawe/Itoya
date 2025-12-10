@@ -331,7 +331,7 @@ function App() {
                 </div>
                 <div className="content">
                   <h4>Precision Service</h4>
-                  <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+                  <p>Itoya provides precision service, ensuring every task is handled with accuracy, expert control, and dependable results.</p>
                 </div>
               </div>
             </div>
