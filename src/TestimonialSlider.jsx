@@ -3,8 +3,8 @@ import { useState, useEffect } from "react";
 export default function TestimonialSlider() {
   const testimonials = [
     {
-      text: "Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat goos services",
-      name: "Mohona Clitar",
+      text: "Itoya really impressed us. Their Caterpillar machine delivered strong performance and handled our site work with ease. We’ll definitely rent from them again.",
+      name: "Chinedu Okafor",
       location: "Nigeria"
     },
     {
