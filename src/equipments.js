@@ -1,14 +1,9 @@
 import React from "react";
 import './App.css';
-import Hero from './slider.jsx';
-import TestimonialSlider from './TestimonialSlider.jsx';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
-import ScrollToTop from "./ScrollToTop";
 
 
 
-function App() {
+function Equip() {
   return (
 <div classname="equip">
   {/*====== Start header Section ======*/}
@@ -29,8 +24,8 @@ function App() {
                   <div className="lang-dropdown">
                     <div className="lang"><img src="assets/images/lang.png" alt="lang" /></div>
                     <select>
-                      <option value={01}>Eng</option>
-                      <option value={02}>Ger</option>
+                      <option value={0o1}>Eng</option>
+                      <option value={0o2}>Ger</option>
                     </select>
                   </div>
                 </li>
@@ -471,4 +466,4 @@ function App() {
   );
 }
 
-export default App;
+export default Equip;
