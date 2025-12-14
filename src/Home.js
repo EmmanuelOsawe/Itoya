@@ -18,30 +18,11 @@ function Home() {
       <div className="container-fluid">
         <div className="row align-items-center">
           <div className="col-lg-7">
-            <div className="top-left">
-              <span><i className="fas fa-map-marker-alt" /> Washington DC, The United States</span>
-              <span><i className="fas fa-phone" /><a href="tel:+70122223333">+701-1111-2222-3333</a></span>
-            </div>
+            
           </div>
           <div className="col-lg-5">
             <div className="top-right">
               <ul className="d-flex align-items-center justify-content-end">
-                <li>
-                  <div className="lang-dropdown">
-                    <div className="lang"><img src="assets/images/lang.png" alt="lang" /></div>
-                    <select>
-                      <option value={0o1}>Eng</option>
-                      <option value={0o2}>Ger</option>
-                    </select>
-                  </div>
-                </li>
-                <li>
-                  <a href="cart.html" className="cart-btn" target="_self" title="Go to cart"><i className="fas fa-shopping-cart" />
-                    <span className="count">02</span>
-                  </a>
-                </li>
-                <li><a href="login.html" target="_self" title="Login">Login</a></li>
-                <li><a href="singup.html" target="_self" title="Signup">Signup</a></li>
               </ul>
             </div>
           </div>
@@ -52,7 +33,8 @@ function Home() {
       <div className="container-fluid pl-0 pr-0">
         <div className="primary-menu d-flex align-items-center justify-content-between">
           <div className="site-branding">
-            <a href="index.html" className="brand-logo" target="_self" title="Brand Logo"><img src="assets/images/logo-1.png" alt="Brand Logo" /></a>
+            <a href="index.html" className="brand-logo" target="_self" title="Brand Logo">        <img src="assets/images/logo.JPG" alt="Footer Logo"
+            className="logo"/></a>
           </div>
           <div className="nav-menu">
             <div className="navbar-close"><i className="fal fa-times" /></div>
@@ -1079,9 +1061,8 @@ function Home() {
       <div className="row justify-content-center">
         <div className="col-lg-8">
           <div className="cta-content-box cta-content-box-one content-white text-center" data-aos="fade-up">
-            <h2>We Are Served Since 93 Years To
+            <h2>We Are Served Since 6 Years To
               Clients With Trust</h2>
-            <h4>Aenean ligula porttitor euonsequat vitae eleifend aenliquam lorem</h4>
             <a href="contact.html" target="_self" title="Get a quote" className="main-btn main-btn-primary">Get A Quote</a>
           </div>
         </div>
@@ -1117,89 +1098,90 @@ function Home() {
   </section>
   {/*====== End Newsletter Section ======*/}
   {/*====== Start Footer ======*/}
-  <footer className="footer-area footer-area-one bg_cover" style={{backgroundImage: 'url(assets/images/bg/footer-bg-1.jpg)'}}>
-    <div className="footer-widget">
+    <footer className="footer-area footer-area-one bg_cover" style={{backgroundImage: 'url(assets/images/bg/footer-bg-1.jpg)', borderRadius: '20px'}}>
+      <div className="footer-widget">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6" data-aos="fade-up">
-            <div className="widget about-widget mb-40">
-              <a href="index.html" className="brand-logo"><img src="assets/images/footer-logo.png" alt="Footer Logo" /></a>
-              <p>Maecenas tempus, tellus eget condiment
-                rhoncus, sem quam semper libero sita</p>
-              <div className="social-box">
-                <h5>Follow Us</h5>
-                <ul className="social-link">
-                  <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-                  <li><a href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></a></li>
-                  <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
-                  <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={100}>
-            <div className="widget footer-widget-nav mb-40">
-              <h4 className="widget-title">Useful Link</h4>
-              <ul className="widget-nav">
-                <li><a href="contact.html">About</a></li>
-                <li><a href="categories.html">Category</a></li>
-                <li><a href="blogs.html">Latest News</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="singup.html">Register</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={150}>
-            <div className="widget contact-info-widget mb-40">
-              <h4 className="widget-title">Contact Information</h4>
-              <ul className="contact-info-list">
-                <li>
-                  <div className="icon">
-                    <i className="fas fa-paper-plane" />
-                  </div>
-                  <div className="info">
-                    <p><a href="mailto:demotext456@gmail.com">demotext456@gmail.com</a></p>
-                    <p><a href="mailto:exapleemail@gmail.com">exapleemail@gmail.com</a></p>
-                  </div>
-                </li>
-                <li>
-                  <div className="icon">
-                    <i className="fas fa-phone" />
-                  </div>
-                  <div className="info">
-                    <p><a href="tel:123456789">+701 - 1111 - 2222 - 3333</a></p>
-                    <p><a href="tel:123456789">+802 - 2222 - 3333 - 4444</a></p>
-                  </div>
-                </li>
-                <li>
-                  <div className="icon">
-                    <i className="fas fa-map-marker-alt" />
-                  </div>
-                  <div className="info">
-                    <p>2759 Renwick Drive
-                      Pennsylvania</p>
-                    <p>450 Young Road New York</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+      <div className="row">
+      <div className="col-lg-4 col-md-6" data-aos="fade-up">
+        <div className="widget about-widget mb-40">
+        <a href="index.html" className="brand-logo">
+          <img src="assets/images/logo.JPG" alt="Footer Logo"
+           className="logo"/>
+</a>
+        <p>Maecenas tempus, tellus eget condiment
+        rhoncus, sem quam semper libero sita</p>
+        <div className="social-box">
+        <h5>Follow Us</h5>
+        <ul className="social-link">
+        <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
+        <li><a href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></a></li>
+        <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
+        <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
+        </ul>
+        </div>
         </div>
       </div>
-    </div>
-    <div className="copyright-area">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="copyright-text text-center">
-              <p>Copyright © 2022 <a href="index.html">Renowk</a>, All Rights Reserved.</p>
-            </div>
-          </div>
+      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={100}>
+        <div className="widget footer-widget-nav mb-40">
+        <h4 className="widget-title">Useful Link</h4>
+        <ul className="widget-nav">
+        <li><a href="contact.html">About</a></li>
+        <li><a href="categories.html">Category</a></li>
+        <li><a href="blogs.html">Latest News</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="singup.html">Register</a></li>
+        </ul>
         </div>
       </div>
-    </div>
-  </footer>
-  {/*====== End Footer ======*/}
+      <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={150}>
+        <div className="widget contact-info-widget mb-40">
+        <h4 className="widget-title">Contact Information</h4>
+        <ul className="contact-info-list">
+        <li>
+        <div className="icon">
+          <i className="fas fa-paper-plane" />
+        </div>
+        <div className="info">
+          <p><a href="mailto:charlesitoya@gmail.com">charlesitoya@gmail.com</a></p>
+        </div>
+        </li>
+        <li>
+        <div className="icon">
+          <i className="fas fa-phone" />
+        </div>
+        <div className="info">
+          <p><a href="tel:+2348164286161">+2348164286161</a></p>
+          <p><a href="tel:+2348073461017">+2348073461017</a></p>
+        </div>
+        </li>
+        <li>
+        <div className="icon">
+          <i className="fas fa-map-marker-alt" />
+        </div>
+        <div className="info">
+          <p>Opp Public Service Institute  of Nigeria,</p>
+          <p>Dutsen Alhaji Junction, Kubwa Express Way, Abuja, Nigeria</p>
+        </div>
+        </li>
+        </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div className="copyright-area">
+      <div className="container">
+      <div className="row">
+      <div className="col-lg-12">
+        <div className="copyright-text text-center">
+        <p>Copyright © 2025 <a href="index.html">Renowk</a>, All Rights Reserved.</p>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    </footer>
+    {/*====== End Footer ======*/}
   
   <ScrollToTop />
   </div>
