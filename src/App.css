@@ -114,3 +114,24 @@
 .latest-news-item {
   cursor:grab; /* hand cursor on hover */
 }
+
+/* Fix input text color */
+.hero-area .form_control {
+  color: #000;
+  background-color: #fff;
+}
+
+/* Fix placeholder visibility */
+.hero-area .form_control::placeholder {
+  color: #777;
+  opacity: 1;
+}
+
+/* For older browsers */
+.hero-area .form_control::-webkit-input-placeholder {
+  color: #777;
+}
+.hero-area .form_control:-ms-input-placeholder {
+  color: #777;
+}
+
