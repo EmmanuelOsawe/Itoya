@@ -4,6 +4,7 @@ import Hero from './slider.jsx';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
+import LatestNews from "./news.jsx";
 
 
 
@@ -1136,107 +1137,7 @@ function Home() {
   </section>
   {/*====== End CTA Section ======*/}
   {/*====== Start Blog Section ======*/}
-  <section className="blog-area pt-130 pb-130">
-    <div className="container">
-      <div className="row align-items-end">
-        <div className="col-lg-6" data-aos="fade-up">
-          <div className="section-title mb-50">
-            <span className="sub-title"><span className="sub-bg">Latest</span> News</span>
-            <h2>Latest News &amp; Updates</h2>
-          </div>
-        </div>
-        <div className="col-lg-6" data-aos="fade-up">
-          <div className="blog-arrows-one mb-60" />
-        </div>
-      </div>
-      <div className="row blog-slider-one">
-        <div className="px-3" data-aos="fade-up">
-          <div className="blog-post-item blog-post-item-one">
-            <div className="post-thumbnail">
-              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-1.jpg" alt="Blog Image" /></a>
-              <a href="blog-details.html" className="cat-btn" title="Excavator" target="_self">Excavator</a>
-            </div>
-            <div className="entry-content">
-              <h3 className="title"><a href="blog-details.html">Best equipment rental for
-                  your next project</a></h3>
-              <div className="post-meta">
-                <ul>
-                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
-                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
-                </ul>
-              </div>
-              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
-                ipsum. Nam quam.</p>
-              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
-            </div>
-          </div>
-        </div>
-        <div className="px-3" data-aos="fade-up">
-          <div className="blog-post-item blog-post-item-one">
-            <div className="post-thumbnail">
-              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-2.jpg" alt="Blog Image" /></a>
-              <a href="blog-details.html" className="cat-btn" title="Worker" target="_self">Worker</a>
-            </div>
-            <div className="entry-content">
-              <h3 className="title"><a href="blog-details.html">Construction worker all
-                  time safe &amp; free</a></h3>
-              <div className="post-meta">
-                <ul>
-                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
-                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
-                </ul>
-              </div>
-              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
-                ipsum. Nam quam.</p>
-              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
-            </div>
-          </div>
-        </div>
-        <div className="px-3" data-aos="fade-up">
-          <div className="blog-post-item blog-post-item-one">
-            <div className="post-thumbnail">
-              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-3.jpg" alt="Blog Image" /></a>
-              <a href="blog-details.html" className="cat-btn" title="Construction" target="_self">Construction</a>
-            </div>
-            <div className="entry-content">
-              <h3 className="title"><a href="blog-details.html">Simple eqipments rental for
-                  your big project</a></h3>
-              <div className="post-meta">
-                <ul>
-                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
-                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
-                </ul>
-              </div>
-              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
-                ipsum. Nam quam.</p>
-              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
-            </div>
-          </div>
-        </div>
-        <div className="px-3" data-aos="fade-up">
-          <div className="blog-post-item blog-post-item-one">
-            <div className="post-thumbnail">
-              <a href="blog-details.html" title="Blog Image" target="_self"><img src="assets/images/blog/blog-4.jpg" alt="Blog Image" /></a>
-              <a href="blog-details.html" className="cat-btn" title="Worker" target="_self">Worker</a>
-            </div>
-            <div className="entry-content">
-              <h3 className="title"><a href="blog-details.html">Construction worker all
-                  time safe &amp; Free</a></h3>
-              <div className="post-meta">
-                <ul>
-                  <li><span><i className="fas fa-user" />Post by <a href="404-error.html">Admin</a></span></li>
-                  <li><span><i className="fas fa-calendar-alt" /><a href="404-error.html">16 Dec 2021</a></span></li>
-                </ul>
-              </div>
-              <p>Maecenas tempus tellus egondimentum rhoncus sem quam semper liberipiscing sem neque sed
-                ipsum. Nam quam.</p>
-              <a href="blog-details.html" className="btn-link" target="_self" title="Read more">Read more</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<LatestNews />
   {/*====== End Blog Section ======*/}
   {/*====== Start Sponsor Section ======*/}
   <div className="sponsor">
