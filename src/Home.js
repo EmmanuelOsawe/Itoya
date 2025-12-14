@@ -1,10 +1,9 @@
 import React from "react";
 import './App.css';
 import Hero from './slider.jsx';
-import TestimonialSlider from './TestimonialSlider.jsx';
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
-import ScrollToTop from "./ScrollToTop";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
 
 
 
@@ -127,95 +126,7 @@ function Home() {
   </header>
   {/*====== End header Section ======*/}
   {/*====== Start Hero Section ======*/}
-  <section className="hero-area">
-    <div className="hero-slider-one">
-      <div className="single-hero-slider bg_cover" style={{backgroundImage: 'url(assets/images/bg/hero-bg-slider-1.jpg)'}}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-11">
-              <div className="hero-content text-center">
-                <h1 data-aos="fade-up">Build Your Dream With Our Construction Equipment</h1>
-                <p data-aos="fade-up" data-aos-delay={50}>Aenean ligula porttitor euonsequat vitae eleifend aenliquam lorem
-                  ante dapibus in viverra quis feugiat a tellus.</p>
-                <div className="hero-search-wrapper" data-aos="fade-up" data-aos-delay={100}>
-                  <form>
-                    <div className="row">
-                      <div className="col-lg-3">
-                        <div className="form_group">
-                          <input type="text" className="form_control" placeholder="What are you looking for?" name="search" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-3">
-                        <select className="wide">
-                          <option value={0o1}>Equipments</option>
-                          <option value={0o1}>Equipments</option>
-                          <option value={0o1}>Equipments</option>
-                          <option value={0o1}>Equipments</option>
-                        </select>
-                      </div>
-                      <div className="col-lg-4">
-                        <div className="form_group">
-                          <input type="date" className="form_control" name="search" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-2">
-                        <div className="form_group">
-                          <button className="search-btn" type="button" title="Search">Search</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="single-hero-slider bg_cover" style={{backgroundImage: 'url(assets/images/bg/hero-bg-slider-2.jpg)'}}>
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-11">
-              <div className="hero-content text-center">
-                <h1>We Provide Best Construction
-                  Equipment For You</h1>
-                <p>Aenean ligula porttitor euonsequat vitae eleifend aenliquam lorem
-                  ante dapibus in viverra quis feugiat a tellus.</p>
-                <div className="hero-search-wrapper">
-                  <form>
-                    <div className="row">
-                      <div className="col-lg-3">
-                        <div className="form_group">
-                          <input type="text" className="form_control" placeholder="What are you looking for?" name="search" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-3">
-                        <select className="wide">
-                          <option value={0o1}>Equipments</option>
-                          <option value={0o1}>Equipments</option>
-                          <option value={0o1}>Equipments</option>
-                          <option value={0o1}>Equipments</option>
-                        </select>
-                      </div>
-                      <div className="col-lg-4">
-                        <div className="form_group">
-                          <input type="date" className="form_control" name="search" required />
-                        </div>
-                      </div>
-                      <div className="col-lg-2">
-                        <div className="form_group">
-                          <button className="search-btn">Search</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <Hero />
   {/*====== End Hero Section ======*/}
   {/*====== Start About Section ======*/}
   <section className="about-area pt-130 pb-80">
