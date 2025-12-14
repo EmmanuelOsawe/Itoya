@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import LatestNews from "./news.jsx";
+import TestimonialSlider from "./TestimonialSlider.jsx";
 
 
 
@@ -1067,56 +1068,8 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="row testimonial-slider-one">
-        <div className="col-lg-4" data-aos="fade-up">
-          <div className="testimonial-item testimonial-item-one">
-            <div className="testimonial-content">
-              <div className="quote">
-                <i className="flaticon-left-quote" />
-              </div>
-              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
-                goos services</p>
-              <h5>Mohona Clitar , <span className="location">USA</span></h5>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4" data-aos="fade-up">
-          <div className="testimonial-item testimonial-item-one">
-            <div className="testimonial-content">
-              <div className="quote">
-                <i className="flaticon-left-quote" />
-              </div>
-              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
-                goos services</p>
-              <h5>Tomas Zinks , <span className="location">USA</span></h5>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4" data-aos="fade-up">
-          <div className="testimonial-item testimonial-item-one">
-            <div className="testimonial-content">
-              <div className="quote">
-                <i className="flaticon-left-quote" />
-              </div>
-              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
-                goos services</p>
-              <h5>Cristiano Ruudo , <span className="location">USA</span></h5>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4" data-aos="fade-up">
-          <div className="testimonial-item testimonial-item-one">
-            <div className="testimonial-content">
-              <div className="quote">
-                <i className="flaticon-left-quote" />
-              </div>
-              <p>Duis leo. Sed fringilla mauris sit amibh. Donec sodales sagittis magna. Sed consequat
-                goos services</p>
-              <h5>Tomas Zinks , <span className="location">USA</span></h5>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      <TestimonialSlider />
     </div>
   </section>
   {/*====== End Testimonial Section ======*/}
@@ -1139,45 +1092,8 @@ function Home() {
   {/*====== Start Blog Section ======*/}
 <LatestNews />
   {/*====== End Blog Section ======*/}
-  {/*====== Start Sponsor Section ======*/}
-  <div className="sponsor">
-    <div className="container">
-      <div className="sponsor-slider-one">
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-1.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-3.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-4.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-5.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*====== End Sponsor Section ======*/}
-  {/*====== Start Newsletter Section ======*/}
+  
+    {/*====== Start Newsletter Section ======*/}
   <section className="newsletter-area pt-130">
     <div className="container">
       <div className="newsletter-wrapper-one">
