@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import LatestNews from "./news.jsx";
 import TestimonialSlider from "./TestimonialSlider.jsx";
-
+import ScrollToTop from "./ScrollToTop.jsx"; 
 
 
 function Home() {
@@ -1200,9 +1200,9 @@ function Home() {
     </div>
   </footer>
   {/*====== End Footer ======*/}
-  {/*====== back-to-top ======*/}
-  <div className="back-to-top"><i className="fas fa-angle-up" /></div>
-</div>
+  
+  <ScrollToTop />
+  </div>
 
   );
 }
