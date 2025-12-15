@@ -97,13 +97,10 @@ function Home() {
             <div className="social-box">
               <ul className="social-link">
                 <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-                <li><a href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></a>
+                <li><a href="https://api.whatsapp.com/send?phone=+2348050940143&text=Hello I need "><i className="fab fa-whatsapp" /></a>
                 </li>
-                <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
-                <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
               </ul>
-            </div>
-          </div>
+            </div>        </div>
         </div>
       </div>
     </div>
@@ -368,7 +365,7 @@ function Home() {
                 <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="pricing-item pricing-item-one mb-40">
                     <div className="pricing-img">
-                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-1.jpg" alt="Pricing image" /></a>
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/product/escavator.jpg" alt="Pricing image" /></a>
                     </div>
                     <div className="pricing-info">
                       <div className="price-info">
@@ -411,24 +408,12 @@ function Home() {
                 <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="pricing-item pricing-item-one mb-40">
                     <div className="pricing-img">
-                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-2.jpg" alt="Pricing image" /></a>
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/product/grader.jpg" alt="Pricing image" /></a>
                     </div>
                     <div className="pricing-info">
-                      <div className="price-info">
-                        <h5>Price</h5>
-                        <span>Starts Form</span>
-                        <div className="price-tag">
-                          <h4>$254</h4>
-                        </div>
-                      </div>
+                     
                       <div className="pricing-body">
-                        <h5 className="title">Range Excavator</h5>
-                        <div className="price-option">
-                          <span className="span-btn day">$130/Day</span>
-                          <span className="span-btn active-btn week">$350/Week</span>
-                          <span className="span-btn month">$875/Month</span>
-                        </div>
-                        <span className="delivary">Two-Way Delivery: $125</span>
+                        <h5 className="title">Grader 140g</h5>
                         <ul className="info-list">
                           <li>Maximum Reach: 2 Meter</li>
                           <li>Operating Weight: 0.6 Ton</li>
@@ -454,7 +439,7 @@ function Home() {
                 <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="pricing-item pricing-item-one mb-40">
                     <div className="pricing-img">
-                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/pricing/price-3.jpg" alt="Pricing image" /></a>
+                      <a href="equipments-details.html" target="_self" title="Equipment Image"><img src="assets/images/product/escavator-2.jpg" alt="Pricing image" /></a>
                     </div>
                     <div className="pricing-info">
                       <div className="price-info">
@@ -465,12 +450,7 @@ function Home() {
                         </div>
                       </div>
                       <div className="pricing-body">
-                        <h5 className="title">Mining Truck High Line Series</h5>
-                        <div className="price-option">
-                          <span className="span-btn day">$130/Day</span>
-                          <span className="span-btn active-btn week">$350/Week</span>
-                          <span className="span-btn month">$875/Month</span>
-                        </div>
+                        <h5 className="title">escavator 320BL</h5>
                         <span className="delivary">Two-Way Delivery: $125</span>
                         <ul className="info-list">
                           <li>Maximum Reach: 2 Meter</li>
@@ -1114,7 +1094,7 @@ function Home() {
         <h5>Follow Us</h5>
         <ul className="social-link">
         <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-        <li><a href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=+2348050940143&text=Hello I need help with"><i className="fab fa-twitter" /></a></li>
         <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
         <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
         </ul>

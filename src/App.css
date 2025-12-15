@@ -141,3 +141,32 @@
   color: #777;
 }
 
+/* Hide arrows by default */
+.hero-slider-one .swiper-button-prev,
+.hero-slider-one .swiper-button-next {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* Show arrows when hovering the hero section */
+.hero-area:hover .swiper-button-prev,
+.hero-area:hover .swiper-button-next {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Optional: style arrows nicely */
+.hero-slider-one .swiper-button-prev,
+.hero-slider-one .swiper-button-next {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+/* Arrow icon size */
+.hero-slider-one .swiper-button-prev::after,
+.hero-slider-one .swiper-button-next::after {
+  font-size: 16px;
+}
