@@ -17,6 +17,13 @@ const LatestNews = () => {
             </div>
           </div>
 
+          {/* ARROWS */}
+
+{/* Custom navigation */}
+<div className="latest-news-arrows">
+  <div className="latest-news-prev">‹</div>
+  <div className="latest-news-next">›</div>
+</div>
         </div>
 
         {/* SLIDER */}
@@ -49,7 +56,7 @@ const LatestNews = () => {
           </SwiperSlide>
 
           {/* CARD 2 */}
-          <SwiperSlide className="latest-news-item">
+          <SwiperSlide >
             <div className="blog-item">
               <div className="blog-img">
                 <img src="/assets/images/blog/blog-2.jpg" alt="" />
@@ -63,7 +70,7 @@ const LatestNews = () => {
           </SwiperSlide>
 
           {/* CARD 3 */}
-          <SwiperSlide className="latest-news-item">
+          <SwiperSlide>
             <div className="blog-item">
               <div className="blog-img">
                 <img src="/assets/images/blog/blog-3.jpg" alt="" />
@@ -76,7 +83,7 @@ const LatestNews = () => {
             </div>
           </SwiperSlide>
 
-          <SwiperSlide className="latest-news-item">
+          <SwiperSlide>
             <div className="blog-item">
               <div className="blog-img">
                 <img src="/assets/images/blog/blog-1.jpg" alt="" />
@@ -90,7 +97,7 @@ const LatestNews = () => {
           </SwiperSlide>
 
           {/* CARD 2 */}
-          <SwiperSlide className="latest-news-item">
+          <SwiperSlide>
             <div className="blog-item">
               <div className="blog-img">
                 <img src="/assets/images/blog/blog-2.jpg" alt="" />
@@ -104,7 +111,7 @@ const LatestNews = () => {
           </SwiperSlide>
 
           {/* CARD 3 */}
-          <SwiperSlide className="latest-news-item">
+          <SwiperSlide>
             <div className="blog-item">
               <div className="blog-img">
                 <img src="/assets/images/blog/blog-3.jpg" alt="" />

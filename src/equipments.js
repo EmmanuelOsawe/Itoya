@@ -1,8 +1,6 @@
 import React from "react";
 import './App.css';
 
-
-
 function Equip() {
   return (
 <div classname="equip">
@@ -214,103 +212,6 @@ function Equip() {
                 </table>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="col-lg-4">
-          <div className="equipement-sidebar-info" data-aos="fade-up">
-            <form>
-              <div className="booking-form">
-                <div className="price-info">
-                  <h5>Price</h5>
-                  <span>Starts Form</span>
-                  <div className="price-tag">
-                    <h4>$159</h4>
-                  </div>
-                </div>
-                <div className="pricing-body">
-                  <div className="price-option">
-                    <span className="span-btn day">$130/Day</span>
-                    <span className="span-btn active-btn week">$350/Week</span>
-                    <span className="span-btn month">$875/Month</span>
-                  </div>
-                  <div className="form_group">
-                    <input type="date" className="form_control" name="date" />
-                  </div>
-                  <div className="form_group">
-                    <div className="reserved-filter d-flex justify-content-between">
-                      <div className="single-method d-flex">
-                        <input type="radio" id="cat1" name="radio" />
-                        <label htmlFor="cat1"><span>Self-Pickup</span></label>
-                      </div>
-                      <div className="single-method d-flex">
-                        <input type="radio" id="cat2" name="radio" defaultChecked />
-                        <label htmlFor="cat2"><span>Owner Delivery</span></label>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="form_group">
-                    <select className="wide">
-                      <option value={0o1}>Where : Captown City , New York</option>
-                      <option value={0o2}>203 Route de Laubanère LOUER</option>
-                      <option value={0o4}>6363 Ten Oaks Rd,103Clarksville</option>
-                      <option value={0o4}>8530 Washington Blvd Jessup</option>
-                    </select>
-                  </div>
-                  <div className="form_group">
-                    <p className="available-text"><i className="fas fa-check-circle" />Dates are available
-                    </p>
-                  </div>
-                  <div className="extra-option pt-35">
-                    <h4>Extra options</h4>
-                    <div className="price-option-table mb-20">
-                      <ul>
-                        <li className="single-price-option">
-                          <div className="single-method">
-                            <input type="checkbox" id="cat3" name="checkbox" />
-                            <label htmlFor="cat3"><span className="title">Dep4sit (always
-                                include)</span><span className="price">$150</span></label>
-                          </div>
-                        </li>
-                        <li className="single-price-option">
-                          <div className="single-method">
-                            <input type="checkbox" id="cat4" name="checkbox" />
-                            <label htmlFor="cat4"><span className="title">Pallet Forks</span><span className="price">$56</span></label>
-                          </div>
-                        </li>
-                        <li className="single-price-option">
-                          <div className="single-method">
-                            <input type="checkbox" id="cat5" name="checkbox" />
-                            <label htmlFor="cat5"><span className="title">Dep4sit (always
-                                include)</span><span className="price">$75</span></label>
-                          </div>
-                        </li>
-                        <li className="single-price-option">
-                          <div className="quantity-total-price d-flex align-items-center justify-content-between">
-                            <div className="quantity-input">
-                              <div className="quantity-down" id="quantityDown">
-                                <i className="fal fa-minus" />
-                              </div>
-                              <input id="quantity" type="text" defaultValue={1} name="quantity" />
-                              <div className="quantity-up" id="quantityUP">
-                                <i className="fal fa-plus" />
-                              </div>
-                              <span className="title">Grapple Buckets</span>
-                            </div>
-                            <span className="price">$54</span>
-                          </div>
-                        </li>
-                        <li className="single-price-option">
-                          <span className="total">Total <span className="total-price">$156</span></span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="button text-center">
-                    <button className="main-btn" type="button" title="Booking">Booking Now</button>
-                  </div>
-                </div>
-              </div>
-            </form>
           </div>
         </div>
       </div>

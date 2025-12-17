@@ -50,7 +50,7 @@ function Home() {
                 <li className="menu-item menu-item-has-children">
                   <a href="index.html#">Equipment</a>
                   <ul className="sub-menu">
-                    <li><a href="equipments-list.html">Equipment</a></li>
+                    <li><a href="equipments.js">Equipment</a></li>
                     <li><a href="equipments-details.html">Equipment Details</a></li>
                   </ul>
                 </li>
@@ -97,7 +97,7 @@ function Home() {
             <div className="social-box">
               <ul className="social-link">
                 <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=+2348050940143&text=Hello I need "><i className="fab fa-whatsapp" /></a>
+                <li><a href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I need "><i className="fab fa-whatsapp" /></a>
                 </li>
               </ul>
             </div>        </div>
@@ -1094,9 +1094,7 @@ function Home() {
         <h5>Follow Us</h5>
         <ul className="social-link">
         <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=+2348050940143&text=Hello I need help with"><i className="fab fa-twitter" /></a></li>
-        <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
-        <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I need help with"><i className="fab fa-whatsapp" /></a></li>
         </ul>
         </div>
         </div>
