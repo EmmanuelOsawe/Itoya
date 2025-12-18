@@ -7,12 +7,12 @@ const EquipmentCubes = () => {
         title="Excavator HMX8296 300 Watts"
         description="High-performance excavator for construction and industrial tasks."
         images={[
-          "/assets/images/pricing/price-1.jpg",
-          "/assets/images/pricing/price-2.jpg",
-          "/assets/images/pricing/price-3.jpg",
-          "/assets/images/pricing/price-4.jpg",
-          "/assets/images/pricing/price-5.jpg",
-          "/assets/images/pricing/price-6.jpg",
+          "/assets/images/product/320L/back.jpg",
+          "/assets/images/product/320L/front.jpg",
+          "/assets/images/product/320L/left.jpg",
+          "/assets/images/product/320L/right.jpg",
+          "/assets/images/product/320L/front.jpg",
+          "/assets/images/product/320L/front.jpg",
         ]}
       />
       <CubeViewer
