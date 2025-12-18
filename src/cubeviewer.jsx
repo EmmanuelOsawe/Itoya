@@ -170,6 +170,7 @@ const CubeViewer = ({
         style={{
           maxWidth: "400px",
           textAlign: "center",
+          marginTop: "120px", 
         }}
       >
         <h3>{title}</h3>

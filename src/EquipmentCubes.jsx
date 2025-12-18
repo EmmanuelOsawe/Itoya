@@ -2,9 +2,9 @@ import CubeViewer from "./cubeviewer";
 
 const EquipmentCubes = () => {
   return (
-    <div style={{ display: "flex", gap: "500px", justifyContent: "center", flexWrap: "wrap" }}>
+    <div style={{ display: "flex", gap: "200px", justifyContent: "center", flexWrap: "wrap" }}>
       <CubeViewer
-        title="Excavator HMX8296 300 Watts"
+        title="Excavator 320L"
         description="High-performance excavator for construction and industrial tasks."
         images={[
           "/assets/images/product/320L/back.jpg",

@@ -142,44 +142,6 @@ function Equip() {
 <br></br><br></br><br></br>
 <EquipmentCubes />
 
-  {/*====== Start Sponsor Section ======*/}
-  <div className="sponsor pt-70">
-    <div className="container">
-      <div className="sponsor-slider-one">
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-1.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-3.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-4.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-5.png" alt="sponsor" />
-          </a>
-        </div>
-        <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-          <a href="contact.html" target="_self" title="Sponsor">
-            <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*====== End Sponsor Section ======*/}
   {/*====== Start Newsletter Section ======*/}
   <section className="newsletter-area pt-130">
     <div className="container">
