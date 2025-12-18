@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import EquipmentCubes from "./EquipmentCubes"; 
 
 function Equip() {
   return (
@@ -138,86 +139,9 @@ function Equip() {
     </div>
   </section>
   {/*====== End Hero Section ======*/}
-  {/*====== Start Equipment Details Section ======*/}
-  <section className="equipment-details-section pt-130">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-8">
-          <div className="equipment-gallery-box d-flex mb-40" data-aos="fade-up">
-            <div className="equipment-slider-warp">
-              <div className="equipment-gallery-slider">
-                <div className="single-gallery-itam" data-thumb="assets/images/pricing/price-1.jpg">
-                  <a href="assets/images/pricing/price-1.jpg" className="img-popup"><img src="assets/images/pricing/price-1.jpg" alt="Image" /></a>
-                </div>
-                <div className="single-gallery-itam" data-thumb="assets/images/pricing/price-2.jpg">
-                  <a href="assets/images/pricing/price-2.jpg" className="img-popup"><img src="assets/images/pricing/price-2.jpg" alt="Image" /></a>
-                </div>
-                <div className="single-gallery-itam" data-thumb="assets/images/pricing/price-3.jpg">
-                  <a href="assets/images/pricing/price-3.jpg" className="img-popup"><img src="assets/images/pricing/price-3.jpg" alt="Image" /></a>
-                </div>
-              </div>
-            </div>
-            <div className="equipment-gallery-arrow" />
-          </div>
-          <div className="description-wrapper">
-            <h3 className="title" data-aos="fade-up">Excavator HMX8296 300 Watts</h3>
-            <a href="login.html" className="voucher-btn" target="_self" title="Download" data-aos="fade-up"><i className="fas fa-file-pdf" />View Brochure</a>
-            <div className="content-box" data-aos="fade-up">
-              <h4 className="title">Description</h4>
-              <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis
-                faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
-                Sed fringilla mauris sit amet nibh. Dosodales sagittis magna. Sed consequat leo eget
-                bibendum sodales augue velit cursus nunc Curabitmcorpies nis eget dui. Etiam rhoncus.
-                Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero sit amet
-                adipiscing sem neque sed ipsum. Nam quam nunc blandit vel luctus.</p>
-              <div className="row">
-                <div className="col-lg-6">
-                  <ul className="list">
-                    <li>Best construction eqipment</li>
-                    <li>At affordable price</li>
-                    <li>Contrary to popular belief</li>
-                  </ul>
-                </div>
-                <div className="col-lg-6">
-                  <ul className="list">
-                    <li>Quraity check</li>
-                    <li>Tecnical support</li>
-                    <li>Right Time Service</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="content-box" data-aos="fade-up">
-              <h4 className="title">Details</h4>
-              <div className="content-table table-responsive">
-                <table className="table">
-                  <tbody>
-                    <tr>
-                      <td>Maximum Reach</td>
-                      <td className="text-right">2 Meter</td>
-                    </tr>
-                    <tr>
-                      <td>Operating Weight</td>
-                      <td className="text-right">0.6 Ton</td>
-                    </tr>
-                    <tr>
-                      <td>Model</td>
-                      <td className="text-right">Lot456</td>
-                    </tr>
-                    <tr>
-                      <td>Brand</td>
-                      <td className="text-right">Weekers</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/*====== End Equipment Details Section ======*/}
+<br></br><br></br><br></br>
+<EquipmentCubes />
+
   {/*====== Start Sponsor Section ======*/}
   <div className="sponsor pt-70">
     <div className="container">
