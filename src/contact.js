@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import ContactForm from "./form";
 
 function Contact() {
   return (
@@ -275,47 +276,7 @@ function Contact() {
                 <div className="section-title mb-30">
                   <span className="span">Contact us</span>
                   <h2>Need Information Contact Us</h2>
-                </div>
-                <div className="contact-form">
-                  <form>
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <div className="form_group">
-                          <input
-                            type="text"
-                            className="form_control"
-                            placeholder="Name"
-                            name="name"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="form_group">
-                          <input
-                            type="email"
-                            className="form_control"
-                            placeholder="Email"
-                            name="email"
-                            required
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form_group">
-                          <textarea
-                            name="message"
-                            className="form_control"
-                            placeholder="What do you want"
-                            defaultValue={""}
-                          />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <button className="main-btn">Submit</button>
-                      </div>
-                    </div>
-                  </form>
+                  <ContactForm />
                 </div>
               </div>
             </div>
