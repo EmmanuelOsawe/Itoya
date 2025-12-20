@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import ContactForm from "./form";
+import ScrollToTop from "./ScrollToTop.jsx"; 
 
 function Contact() {
   return (
@@ -459,6 +460,9 @@ function Contact() {
       <div className="back-to-top">
         <i className="fas fa-angle-up" />
       </div>
+
+        <ScrollToTop />
+      
     </div>
   );
 }

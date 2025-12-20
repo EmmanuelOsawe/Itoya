@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import EquipmentCubes from "./EquipmentCubes"; 
+import ScrollToTop from "./ScrollToTop.jsx"; 
 
 function Equip() {
   return (
@@ -248,6 +249,8 @@ function Equip() {
       </div>
     </div>
   </footer>
+
+    <ScrollToTop />
 </div>
 
   );
