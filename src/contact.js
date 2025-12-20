@@ -186,18 +186,8 @@ function Contact() {
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com" target="_blank">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://linkedin.com" target="_blank">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://pinterest.com" target="_blank">
-                        <i className="fab fa-pinterest-p" />
+                      <a href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I need " target="_blank">
+                        <i className="fab fa-whatsapp" />
                       </a>
                     </li>
                   </ul>
@@ -250,7 +240,7 @@ function Contact() {
                     <i className="fas fa-home" />
                   </div>
                   <div className="info">
-                    <p> House - 44, Road - 03, Sector - 11, Uttara, Dhaka</p>
+                    <p> Opp Public Service Institute  of Nigeria, Dutsen Alhaji Junction, Kubwa Express Way, Abuja, Nigeria</p>
                   </div>
                 </div>
                 <div className="information-item mb-50" data-aos="fade-up">
@@ -259,10 +249,10 @@ function Contact() {
                   </div>
                   <div className="info">
                     <p>
-                      <a href="tel:+12336892">+123 366 892</a>
+                      <a href="tel:+2348164286161">+234 816 428 6161</a>
                     </p>
                     <p>
-                      <a href="tel:+12336892">+991 2336 255</a>
+                      <a href="tel:+2348073461017">+234 807 346 1017</a>
                     </p>
                   </div>
                 </div>
@@ -272,13 +262,8 @@ function Contact() {
                   </div>
                   <div className="info">
                     <p>
-                      <a href="mailto:contact@example.com">
-                        contact@example.com
-                      </a>
-                    </p>
-                    <p>
-                      <a href="mailto:inquiry@example.com">
-                        inquiry@example.com
+                      <a href="mailto:charlesitoya@gmail.com">
+                        charlesitoya@gmail.com
                       </a>
                     </p>
                   </div>
@@ -318,18 +303,10 @@ function Contact() {
                       </div>
                       <div className="col-lg-12">
                         <div className="form_group">
-                          <select className="wide">
-                            <option value="support">Customer Support</option>
-                            <option value="ticket">Create Ticket</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="form_group">
                           <textarea
                             name="message"
                             className="form_control"
-                            placeholder="Comment"
+                            placeholder="What do you want"
                             defaultValue={""}
                           />
                         </div>
@@ -345,45 +322,7 @@ function Contact() {
           </div>
         </div>
       </section>
-      {/*====== End Contact Section ======*/}
-      {/*====== Start Newsletter ======*/}
-      <div className="sponsor">
-        <div className="container">
-          <div className="sponsor-slider-one">
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-1.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-3.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-4.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-5.png" alt="sponsor" />
-              </a>
-            </div>
-            <div className="sponsor-item sponsor-item-one" data-aos="fade-up">
-              <a href="contact.html" target="_self" title="Sponsor">
-                <img src="assets/images/sponsor/sponsor-2.png" alt="sponsor" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/*====== End Newsletter ======*/}
+
       {/*====== Start Newsletter ======*/}
       <section className="newsletter-area pt-130">
         <div className="container">
@@ -517,10 +456,10 @@ function Contact() {
                       </div>
                       <div className="info">
                         <p>
-                          <a href="tel:123456789">+701 - 1111 - 2222 - 3333</a>
+                          <a href="tel:+2348164286161">+234 816 428 6161</a>
                         </p>
                         <p>
-                          <a href="tel:123456789">+802 - 2222 - 3333 - 4444</a>
+                          <a href="tel:+2348073461017">+234 807 346 1017</a>
                         </p>
                       </div>
                     </li>

@@ -97,7 +97,7 @@ function Equip() {
                     <li><a href="blog-details.html">Blog Details</a></li>
                   </ul>
                 </li>
-                <li className="menu-item"><a href="contact.js">Contact</a></li>
+                <li className="menu-item"><a href="contact.html">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -190,7 +190,7 @@ function Equip() {
             <div className="widget footer-widget-nav mb-40">
               <h4 className="widget-title">Useful Link</h4>
               <ul className="widget-nav">
-                <li><a href="contact.js">About</a></li>
+                <li><a href="contact.html">About</a></li>
                 <li><a href="categories.html">Category</a></li>
                 <li><a href="blogs.html">Latest News</a></li>
                 <li><a href="login.html">Login</a></li>
