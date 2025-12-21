@@ -1,11 +1,56 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import "aos/dist/aos.css"; // Make sure you have AOS CSS imported
+import AOS from "aos";
+import { useEffect } from "react";
 
 const LatestNews = () => {
+  useEffect(() => {
+    AOS.init({ duration: 800, once: true });
+  }, []);
+
+  const slides = [
+    {
+      img: "/assets/images/blog/blog-1.jpg",
+      tag: "Excavator",
+      title: "Best equipment rental for your next project",
+      desc: "Maecenas tempus tellus eget condimentum",
+    },
+    {
+      img: "/assets/images/blog/blog-2.jpg",
+      tag: "Worker",
+      title: "Construction worker all time safe & free",
+      desc: "Maecenas tempus tellus eget condimentum",
+    },
+    {
+      img: "/assets/images/blog/blog-3.jpg",
+      tag: "Construction",
+      title: "Simple equipments rental for your big project",
+      desc: "Maecenas tempus tellus eget condimentum",
+    },
+    {
+      img: "/assets/images/blog/blog-1.jpg",
+      tag: "Excavator",
+      title: "Best equipment rental for your next project",
+      desc: "Maecenas tempus tellus eget condimentum",
+    },
+    {
+      img: "/assets/images/blog/blog-2.jpg",
+      tag: "Worker",
+      title: "Construction worker all time safe & free",
+      desc: "Maecenas tempus tellus eget condimentum",
+    },
+    {
+      img: "/assets/images/blog/blog-3.jpg",
+      tag: "Construction",
+      title: "Simple equipments rental for your big project",
+      desc: "Maecenas tempus tellus eget condimentum",
+    },
+  ];
+
   return (
     <section className="blog-area pt-130 pb-130">
       <div className="container">
-
         {/* HEADER */}
         <div className="row align-items-end mb-50">
           <div className="col-lg-8">
@@ -18,12 +63,10 @@ const LatestNews = () => {
           </div>
 
           {/* ARROWS */}
-
-{/* Custom navigation */}
-<div className="latest-news-arrows">
-  <div className="latest-news-prev">‹</div>
-  <div className="latest-news-next">›</div>
-</div>
+          <div className="latest-news-arrows">
+            <div className="latest-news-prev">‹</div>
+            <div className="latest-news-next">›</div>
+          </div>
         </div>
 
         {/* SLIDER */}
@@ -41,89 +84,24 @@ const LatestNews = () => {
             1200: { slidesPerView: 3 },
           }}
         >
-          {/* CARD 1 */}
-          <SwiperSlide className="latest-news-item">
-            <div className="blog-item">
-              <div className="blog-img">
-                <img src="/assets/images/blog/blog-1.jpg" alt="" />
-                <span className="tag">Excavator</span>
+          {slides.map((slide, index) => (
+            <SwiperSlide key={index} className="latest-news-item">
+              <div
+                className="blog-item"
+                data-aos="fade-up"
+                data-aos-delay={index * 150} // Incremental delay for sequential pop
+              >
+                <div className="blog-img">
+                  <img src={slide.img} alt={slide.tag} />
+                  <span className="tag">{slide.tag}</span>
+                </div>
+                <div className="blog-content">
+                  <h4>{slide.title}</h4>
+                  <p>{slide.desc}</p>
+                </div>
               </div>
-              <div className="blog-content">
-                <h4>Best equipment rental for your next project</h4>
-                <p>Maecenas tempus tellus eget condimentum</p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          {/* CARD 2 */}
-          <SwiperSlide >
-            <div className="blog-item">
-              <div className="blog-img">
-                <img src="/assets/images/blog/blog-2.jpg" alt="" />
-                <span className="tag">Worker</span>
-              </div>
-              <div className="blog-content">
-                <h4>Construction worker all time safe & free</h4>
-                <p>Maecenas tempus tellus eget condimentum</p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          {/* CARD 3 */}
-          <SwiperSlide>
-            <div className="blog-item">
-              <div className="blog-img">
-                <img src="/assets/images/blog/blog-3.jpg" alt="" />
-                <span className="tag">Construction</span>
-              </div>
-              <div className="blog-content">
-                <h4>Simple equipments rental for your big project</h4>
-                <p>Maecenas tempus tellus eget condimentum</p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="blog-item">
-              <div className="blog-img">
-                <img src="/assets/images/blog/blog-1.jpg" alt="" />
-                <span className="tag">Excavator</span>
-              </div>
-              <div className="blog-content">
-                <h4>Best equipment rental for your next project</h4>
-                <p>Maecenas tempus tellus eget condimentum</p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          {/* CARD 2 */}
-          <SwiperSlide>
-            <div className="blog-item">
-              <div className="blog-img">
-                <img src="/assets/images/blog/blog-2.jpg" alt="" />
-                <span className="tag">Worker</span>
-              </div>
-              <div className="blog-content">
-                <h4>Construction worker all time safe & free</h4>
-                <p>Maecenas tempus tellus eget condimentum</p>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          {/* CARD 3 */}
-          <SwiperSlide>
-            <div className="blog-item">
-              <div className="blog-img">
-                <img src="/assets/images/blog/blog-3.jpg" alt="" />
-                <span className="tag">Construction</span>
-              </div>
-              <div className="blog-content">
-                <h4>Simple equipments rental for your big project</h4>
-                <p>Maecenas tempus tellus eget condimentum</p>
-              </div>
-            </div>
-          </SwiperSlide>
-
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </section>

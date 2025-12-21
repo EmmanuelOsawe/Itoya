@@ -1608,33 +1608,33 @@ function Home() {
         </div>
       </section>
       {/*====== End Testimonial Section ======*/}
-      {/*====== Start CTA Section ======*/}
-      <section
-        className="cta-area bg-with-overlay bg-cover pt-120 pb-130"
-        style={{ backgroundImage: "url(assets/images/bg/cta-bg-1.jpg)" }}
-      >
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div
-                className="cta-content-box cta-content-box-one content-white text-center"
-                data-aos="fade-up"
-              >
-                <h2>We Are Served Since 6 Years To Clients With Trust</h2>
-                <a
-                  href="contact.html"
-                  target="_self"
-                  title="Get a quote"
-                  className="main-btn main-btn-primary"
-                >
-                  Get A Quote
-                </a>
-              </div>
-            </div>
-          </div>
+{/*====== Start CTA Section ======*/}
+<section
+  className="cta-area bg-with-overlay bg-cover pt-120 pb-130"
+  style={{ backgroundImage: "url(assets/images/bg/cta-bg-1.jpg)" }}
+  data-aos="zoom-in"
+  data-aos-duration="1200"
+  data-aos-easing="ease-out-cubic"
+>
+  <div className="container">
+    <div className="row justify-content-center">
+      <div className="col-lg-8">
+        <div className="cta-content-box cta-content-box-one content-white text-center">
+          <h2>We Are Served Since 6 Years To Clients With Trust</h2>
+          <a
+            href="contact.html"
+            target="_self"
+            title="Get a quote"
+            className="main-btn main-btn-primary"
+          >
+            Get A Quote
+          </a>
         </div>
-      </section>
-      {/*====== End CTA Section ======*/}
+      </div>
+    </div>
+  </div>
+</section>
+{/*====== End CTA Section ======*/}
       {/*====== Start Blog Section ======*/}
       <LatestNews />
       {/*====== End Blog Section ======*/}
