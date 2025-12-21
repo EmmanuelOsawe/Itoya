@@ -53,7 +53,7 @@ function Equip() {
             <nav className="main-menu">
               <ul>
                 <li className="menu-item menu-item-has-children">
-                  <a href="equipments-details.html#" className="active">Home</a>
+                  <a href="Home.js" className="active">Home</a>
                   <ul className="sub-menu">
                     <li><a href="index.html">Home 01</a></li>
                     <li><a href="index-2.html">Home 02</a></li>
