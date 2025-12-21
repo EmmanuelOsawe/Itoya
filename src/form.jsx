@@ -24,11 +24,19 @@ Email: ${email}
 Message: ${message}
     `;
 
-    const whatsappURL = `https://wa.me/2348164286161?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/2348050940143?text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
+    // Open WhatsApp
     window.open(whatsappURL, "_blank");
+
+    // ✅ CLEAR INPUTS AFTER CLICK
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
@@ -44,6 +52,7 @@ Message: ${message}
                 className="form_control"
                 placeholder="Name"
                 required
+                value={formData.name}
                 onChange={handleChange}
               />
             </div>
@@ -57,6 +66,7 @@ Message: ${message}
                 className="form_control"
                 placeholder="Email"
                 required
+                value={formData.email}
                 onChange={handleChange}
               />
             </div>
@@ -69,6 +79,7 @@ Message: ${message}
                 className="form_control"
                 placeholder="What do you want"
                 required
+                value={formData.message}
                 onChange={handleChange}
               />
             </div>
