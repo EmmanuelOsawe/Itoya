@@ -307,81 +307,69 @@ function Home() {
         </div>
       </section>
       {/*====== End Features Section ======*/}
-      {/*====== Start Counter Section ======*/}
-      <section
-        className="counter-area bg-with-overlay bg_cover pt-130 pb-90"
-        style={{ backgroundImage: "url(assets/images/bg/counter-bg-1.jpg)" }}
-      >
-        <div className="container">
-          <div className="row">
-            <div
-              className="col-lg-3 col-sm-6 counter-column"
-              data-aos="fade-up"
-            >
-              <div className="counter-item counter-item-one mb-40 text-center">
-                <div className="icon">
-                  <i className="flaticon-excavator-1" />
-                </div>
-                <div className="content">
-                  <h2>
-                    <span className="count">2500</span>+
-                  </h2>
-                  <h5>Equipment</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-sm-6 counter-column"
-              data-aos="fade-up"
-            >
-              <div className="counter-item counter-item-one mb-40 text-center">
-                <div className="icon">
-                  <i className="flaticon-placeholder" />
-                </div>
-                <div className="content">
-                  <h2>
-                    <span className="count">175</span>+
-                  </h2>
-                  <h5>Coverage Area</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-sm-6 counter-column"
-              data-aos="fade-up"
-            >
-              <div className="counter-item counter-item-one mb-40 text-center">
-                <div className="icon">
-                  <i className="flaticon-building" />
-                </div>
-                <div className="content">
-                  <h2>
-                    <span className="count">596</span>+
-                  </h2>
-                  <h5>Total Brunch</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-sm-6 counter-column"
-              data-aos="fade-up"
-            >
-              <div className="counter-item counter-item-one mb-40 text-center">
-                <div className="icon">
-                  <i className="flaticon-worker-1" />
-                </div>
-                <div className="content">
-                  <h2>
-                    <span className="count">1580</span>
-                  </h2>
-                  <h5>Company Staffs</h5>
-                </div>
-              </div>
-            </div>
+{/*====== Start Counter Section ======*/}
+<section
+  className="counter-area bg-with-overlay bg_cover pt-130 pb-90"
+  style={{ backgroundImage: "url(assets/images/bg/counter-bg-1.jpg)" }}
+  data-aos="zoom-in"
+  data-aos-duration="1200"
+  data-aos-easing="ease-out-cubic"
+>
+  <div className="container">
+    <div className="row">
+
+      <div className="col-lg-3 col-sm-6 counter-column">
+        <div className="counter-item counter-item-one mb-40 text-center">
+          <div className="icon">
+            <i className="flaticon-excavator-1" />
+          </div>
+          <div className="content">
+            <h2><span className="count">2500</span>+</h2>
+            <h5>Equipment</h5>
           </div>
         </div>
-      </section>
-      {/*====== End Counter Section ======*/}
+      </div>
+
+      <div className="col-lg-3 col-sm-6 counter-column">
+        <div className="counter-item counter-item-one mb-40 text-center">
+          <div className="icon">
+            <i className="flaticon-placeholder" />
+          </div>
+          <div className="content">
+            <h2><span className="count">175</span>+</h2>
+            <h5>Coverage Area</h5>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-lg-3 col-sm-6 counter-column">
+        <div className="counter-item counter-item-one mb-40 text-center">
+          <div className="icon">
+            <i className="flaticon-building" />
+          </div>
+          <div className="content">
+            <h2><span className="count">596</span>+</h2>
+            <h5>Total Brunch</h5>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-lg-3 col-sm-6 counter-column">
+        <div className="counter-item counter-item-one mb-40 text-center">
+          <div className="icon">
+            <i className="flaticon-worker-1" />
+          </div>
+          <div className="content">
+            <h2><span className="count">1580</span></h2>
+            <h5>Company Staffs</h5>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{/*====== End Counter Section ======*/}
       {/*====== Start Pricing Section ======*/}
       <section className="pricing-area pt-130 pb-90">
         <div className="container">
