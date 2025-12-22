@@ -171,52 +171,61 @@ function Home() {
       <Hero />
       {/*====== End Hero Section ======*/}
       {/*====== Start About Section ======*/}
-        <section className="about-area pt-130 pb-80">
-          <div className="container">
-            <div className="row gx-xl-5">
-          <div className="col-lg-7" data-aos="fade-up">
-            <div className="about-img-box about-img-box-one mb-50">
-              <div className="about-img about-img-one">
-            <img
-              src="assets/images/product/140g/smfront.jpg"
-              alt="about image"
-            />
+      <section className="about-area pt-130 pb-80">
+        <div className="container">
+          <div className="row gx-xl-5">
+            <div className="col-lg-7" data-aos="fade-up">
+              <div className="about-img-box about-img-box-one mb-50">
+                <div className="about-img about-img-one">
+                  <img
+                    src="assets/images/product/140g/smfront.jpg"
+                    alt="about image"
+                  />
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-5" data-aos="fade-up">
-            <div className="about-content-box about-content-box-one mb-50">
-              <div className="section-title mb-40">
-            <span className="sub-title">
-              <span className="sub-bg">Who</span> We Are?
-            </span>
-            <h2 className="mb-0" style={{ color: "#000" }}>
-              We Are 6 Years into this Business Helping Clients Build
-            </h2>
-              </div>
-              <p style={{ color: "#000" }}>
-            "For the past 6 years, we have been serving clients with trusted equipment rental solutions, delivering quality, safety, and efficiency on every project."
-              </p>
-              <div className="block-quote mt-25" style={{ color: "#000" }}>
-            <h5>
-              "We are a trusted business in the buying and selling of equipment, committed to quality, value, and long-term customer satisfaction. With years of experience in the industry, we carefully source reliable equipment and ensure every product meets high standards of performance and durability. Our goal is to provide customers with dependable solutions, fair pricing, and honest service that supports successful projects and lasting partnerships."
-            </h5>
-              </div>
-              
-            
-      <CircularText
-        text="ITOYA*BROTHERS*LIMITED*"
-        onHover="speedUp"
-        spinDuration={20}
-        className="custom-class"
-      />
+            <div className="col-lg-5" data-aos="fade-up">
+              <div className="about-content-box about-content-box-one mb-50">
+                <div className="section-title mb-40">
+                  <span className="sub-title">
+                    <span className="sub-bg">Who</span> We Are?
+                  </span>
+                  <h2 className="mb-0" style={{ color: "#000" }}>
+                    We Are 6 Years into this Business Helping Clients Build
+                  </h2>
+                </div>
+                <p style={{ color: "#000" }}>
+                  "For the past 6 years, we have been serving clients with
+                  trusted equipment rental solutions, delivering quality,
+                  safety, and efficiency on every project."
+                </p>
+                <div className="block-quote mt-25" style={{ color: "#000" }}>
+                  <h5>
+                    "We are a trusted business in the buying and selling of
+                    equipment, committed to quality, value, and long-term
+                    customer satisfaction. With years of experience in the
+                    industry, we carefully source reliable equipment and ensure
+                    every product meets high standards of performance and
+                    durability. Our goal is to provide customers with dependable
+                    solutions, fair pricing, and honest service that supports
+                    successful projects and lasting partnerships."
+                  </h5>
+                </div>
 
+                <br></br> <br></br><br></br>
+                
+                <CircularText
+                  text="ITOYA*BROTHERS*LIMITED*"
+                  onHover="speedUp"
+                  spinDuration={20}
+                  className="custom-class"
+                />
+              </div>
             </div>
           </div>
-            </div>
-          </div>
-        </section>
-        {/*====== End About Section ======*/}
+        </div>
+      </section>
+      {/*====== End About Section ======*/}
       <section
         className="working-process light-gray pt-130 pb-90"
         data-aos="fade-right"
