@@ -1,13 +1,13 @@
 import React from "react";
-import './App.css';
-import Hero from './slider.jsx';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/autoplay';
+import "./App.css";
+import Hero from "./slider.jsx";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/autoplay";
 import LatestNews from "./news.jsx";
 import TestimonialSlider from "./TestimonialSlider.jsx";
-import ScrollToTop from "./ScrollToTop.jsx"; 
-
+import ScrollToTop from "./ScrollToTop.jsx";
+import CircularText from './component/ui/getRotationTransition.jsx';
 
 function Home() {
   return (
@@ -171,60 +171,52 @@ function Home() {
       <Hero />
       {/*====== End Hero Section ======*/}
       {/*====== Start About Section ======*/}
-      <section className="about-area pt-130 pb-80">
-        <div className="container">
-          <div className="row gx-xl-5">
-            <div className="col-lg-7" data-aos="fade-up">
-              <div className="about-img-box about-img-box-one mb-50">
-                <div className="about-img about-img-one">
-                  <img
-                    src="assets/images/about/about-1.jpg"
-                    alt="about image"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-5" data-aos="fade-up">
-              <div className="about-content-box about-content-box-one mb-50">
-                <div className="section-title mb-40">
-                  <span className="sub-title">
-                    <span className="sub-bg">Who</span> Are We?
-                  </span>
-                  <h2 className="mb-0">
-                    We Have 30+ Years of Industrial Experience
-                  </h2>
-                </div>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the 1500s, when an unknown printer took.
-                </p>
-                <p>
-                  Letraset sheets containing Lorem Ipsum passages, and more
-                  recently with publishing software like PageMaker.
-                </p>
-                <div className="block-quote mt-25">
-                  <h5>
-                    “ Wmet minim ollit non deserunt ullamco est aliqua dolor do
-                    amet sint. Velit officia consequat denivelit mollit.
-                    Exercitation veniam consequat sunt nostrud vquis nostrud
-                    exercitation “
-                  </h5>
-                </div>
-                <a
-                  href="contact.html"
-                  target="_self"
-                  title="What we do"
-                  className="main-btn"
-                >
-                  What We Do
-                </a>
+        <section className="about-area pt-130 pb-80">
+          <div className="container">
+            <div className="row gx-xl-5">
+          <div className="col-lg-7" data-aos="fade-up">
+            <div className="about-img-box about-img-box-one mb-50">
+              <div className="about-img about-img-one">
+            <img
+              src="assets/images/product/140g/smfront.jpg"
+              alt="about image"
+            />
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      {/*====== End About Section ======*/}
+          <div className="col-lg-5" data-aos="fade-up">
+            <div className="about-content-box about-content-box-one mb-50">
+              <div className="section-title mb-40">
+            <span className="sub-title">
+              <span className="sub-bg">Who</span> We Are?
+            </span>
+            <h2 className="mb-0" style={{ color: "#000" }}>
+              We Are 6 Years into this Business Helping Clients Build
+            </h2>
+              </div>
+              <p style={{ color: "#000" }}>
+            "For the past 6 years, we have been serving clients with trusted equipment rental solutions, delivering quality, safety, and efficiency on every project."
+              </p>
+              <div className="block-quote mt-25" style={{ color: "#000" }}>
+            <h5>
+              "We are a trusted business in the buying and selling of equipment, committed to quality, value, and long-term customer satisfaction. With years of experience in the industry, we carefully source reliable equipment and ensure every product meets high standards of performance and durability. Our goal is to provide customers with dependable solutions, fair pricing, and honest service that supports successful projects and lasting partnerships."
+            </h5>
+              </div>
+              
+            
+      <CircularText
+        text="ITOYA*BROTHERS*LIMITED*"
+        onHover="speedUp"
+        spinDuration={20}
+        className="custom-class"
+      />
+
+            </div>
+          </div>
+            </div>
+          </div>
+        </section>
+        {/*====== End About Section ======*/}
       <section
         className="working-process light-gray pt-130 pb-90"
         data-aos="fade-right"
@@ -307,69 +299,75 @@ function Home() {
         </div>
       </section>
       {/*====== End Features Section ======*/}
-{/*====== Start Counter Section ======*/}
-<section
-  className="counter-area bg-with-overlay bg_cover pt-130 pb-90"
-  style={{ backgroundImage: "url(assets/images/bg/counter-bg-1.jpg)" }}
-  data-aos="zoom-in"
-  data-aos-duration="1200"
-  data-aos-easing="ease-out-cubic"
->
-  <div className="container">
-    <div className="row">
+      {/*====== Start Counter Section ======*/}
+      <section
+        className="counter-area bg-with-overlay bg_cover pt-130 pb-90"
+        style={{ backgroundImage: "url(assets/images/bg/counter-bg-1.jpg)" }}
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-easing="ease-out-cubic"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-sm-6 counter-column">
+              <div className="counter-item counter-item-one mb-40 text-center">
+                <div className="icon">
+                  <i className="flaticon-excavator-1" />
+                </div>
+                <div className="content">
+                  <h2>
+                    <span className="count">2500</span>+
+                  </h2>
+                  <h5>Equipment</h5>
+                </div>
+              </div>
+            </div>
 
-      <div className="col-lg-3 col-sm-6 counter-column">
-        <div className="counter-item counter-item-one mb-40 text-center">
-          <div className="icon">
-            <i className="flaticon-excavator-1" />
-          </div>
-          <div className="content">
-            <h2><span className="count">2500</span>+</h2>
-            <h5>Equipment</h5>
+            <div className="col-lg-3 col-sm-6 counter-column">
+              <div className="counter-item counter-item-one mb-40 text-center">
+                <div className="icon">
+                  <i className="flaticon-placeholder" />
+                </div>
+                <div className="content">
+                  <h2>
+                    <span className="count">175</span>+
+                  </h2>
+                  <h5>Coverage Area</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6 counter-column">
+              <div className="counter-item counter-item-one mb-40 text-center">
+                <div className="icon">
+                  <i className="flaticon-building" />
+                </div>
+                <div className="content">
+                  <h2>
+                    <span className="count">596</span>+
+                  </h2>
+                  <h5>Total Brunch</h5>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-sm-6 counter-column">
+              <div className="counter-item counter-item-one mb-40 text-center">
+                <div className="icon">
+                  <i className="flaticon-worker-1" />
+                </div>
+                <div className="content">
+                  <h2>
+                    <span className="count">1580</span>
+                  </h2>
+                  <h5>Company Staffs</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="col-lg-3 col-sm-6 counter-column">
-        <div className="counter-item counter-item-one mb-40 text-center">
-          <div className="icon">
-            <i className="flaticon-placeholder" />
-          </div>
-          <div className="content">
-            <h2><span className="count">175</span>+</h2>
-            <h5>Coverage Area</h5>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-lg-3 col-sm-6 counter-column">
-        <div className="counter-item counter-item-one mb-40 text-center">
-          <div className="icon">
-            <i className="flaticon-building" />
-          </div>
-          <div className="content">
-            <h2><span className="count">596</span>+</h2>
-            <h5>Total Brunch</h5>
-          </div>
-        </div>
-      </div>
-
-      <div className="col-lg-3 col-sm-6 counter-column">
-        <div className="counter-item counter-item-one mb-40 text-center">
-          <div className="icon">
-            <i className="flaticon-worker-1" />
-          </div>
-          <div className="content">
-            <h2><span className="count">1580</span></h2>
-            <h5>Company Staffs</h5>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-{/*====== End Counter Section ======*/}
+      </section>
+      {/*====== End Counter Section ======*/}
       {/*====== Start Pricing Section ======*/}
       <section className="pricing-area pt-130 pb-90">
         <div className="container">
@@ -1608,33 +1606,33 @@ function Home() {
         </div>
       </section>
       {/*====== End Testimonial Section ======*/}
-{/*====== Start CTA Section ======*/}
-<section
-  className="cta-area bg-with-overlay bg-cover pt-120 pb-130"
-  style={{ backgroundImage: "url(assets/images/bg/cta-bg-1.jpg)" }}
-  data-aos="zoom-in"
-  data-aos-duration="1200"
-  data-aos-easing="ease-out-cubic"
->
-  <div className="container">
-    <div className="row justify-content-center">
-      <div className="col-lg-8">
-        <div className="cta-content-box cta-content-box-one content-white text-center">
-          <h2>We Are Served Since 6 Years To Clients With Trust</h2>
-          <a
-            href="contact.html"
-            target="_self"
-            title="Get a quote"
-            className="main-btn main-btn-primary"
-          >
-            Get A Quote
-          </a>
+      {/*====== Start CTA Section ======*/}
+      <section
+        className="cta-area bg-with-overlay bg-cover pt-120 pb-130"
+        style={{ backgroundImage: "url(assets/images/bg/cta-bg-1.jpg)" }}
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-easing="ease-out-cubic"
+      >
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-8">
+              <div className="cta-content-box cta-content-box-one content-white text-center">
+                <h2>We Are Served Since 6 Years To Clients With Trust</h2>
+                <a
+                  href="contact.html"
+                  target="_self"
+                  title="Get a quote"
+                  className="main-btn main-btn-primary"
+                >
+                  Get A Quote
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-{/*====== End CTA Section ======*/}
+      </section>
+      {/*====== End CTA Section ======*/}
       {/*====== Start Blog Section ======*/}
       <LatestNews />
       {/*====== End Blog Section ======*/}
