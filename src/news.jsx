@@ -12,40 +12,29 @@ const LatestNews = () => {
   const slides = [
     {
       img: "/assets/images/blog/blog-1.jpg",
-      tag: "Excavator",
-      title: "Best equipment rental for your next project",
-      desc: "Maecenas tempus tellus eget condimentum",
+      tag: "Equiments",
+      title: "Best equipment buy/rental for your next project",
+      desc: "We share latest news about our soon coming products",
     },
     {
       img: "/assets/images/blog/blog-2.jpg",
       tag: "Worker",
-      title: "Construction worker all time safe & free",
-      desc: "Maecenas tempus tellus eget condimentum",
+      title: "Construction workers opportunities available",
+      desc: "We share information about available job roles",
     },
     {
       img: "/assets/images/blog/blog-3.jpg",
       tag: "Construction",
-      title: "Simple equipments rental for your big project",
-      desc: "Maecenas tempus tellus eget condimentum",
+      title: "Construction equipments",
+      desc: "We will soon start selliing/rent construction equipments for rent",
     },
     {
       img: "/assets/images/blog/blog-1.jpg",
-      tag: "Excavator",
-      title: "Best equipment rental for your next project",
-      desc: "Maecenas tempus tellus eget condimentum",
+      tag: "Other Product",
+      title: "Other products soon coming",
+      desc: "We also give information about other products",
     },
-    {
-      img: "/assets/images/blog/blog-2.jpg",
-      tag: "Worker",
-      title: "Construction worker all time safe & free",
-      desc: "Maecenas tempus tellus eget condimentum",
-    },
-    {
-      img: "/assets/images/blog/blog-3.jpg",
-      tag: "Construction",
-      title: "Simple equipments rental for your big project",
-      desc: "Maecenas tempus tellus eget condimentum",
-    },
+    
   ];
 
   return (
