@@ -383,66 +383,8 @@ function Home() {
             <div className="col-lg-6" data-aos="fade-up">
               <div className="section-title text-center mb-50">
                 <span className="sub-title">
-                  <span className="sub-bg">Awesome</span> Equipment
+                  <span className="sub-bg">Equipment</span> 
                 </span>
-                <h2>Featured Rental Equipment</h2>
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="pricing-nav-filter mb-60" data-aos="fade-up">
-                <ul className="nav nav-tabs">
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      data-toggle="tab"
-                      href="index.html#all"
-                    >
-                      All Equipment{" "}
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat1"
-                    >
-                      Lorry trucks
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat2"
-                    >
-                      Cranes
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat3"
-                    >
-                      Forklifts
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link"
-                      data-toggle="tab"
-                      href="index.html#cat4"
-                    >
-                      Excavators
-                    </a>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -455,7 +397,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="equipments-details.html"
+                            href="contact.js"
                             target="_self"
                             title="Equipment Image"
                           >
@@ -466,25 +408,9 @@ function Home() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          <div className="price-info">
-                            <h5>Price</h5>
-                            <span>Starts Form</span>
-                            <div className="price-tag">
-                              <h4>$159</h4>
-                            </div>
-                          </div>
                           <div className="pricing-body">
-                            <h5 className="title">Mining Truck with AC</h5>
-                            <div className="price-option">
-                              <span className="span-btn day">$130/Day</span>
-                              <span className="span-btn active-btn week">
-                                $350/Week
-                              </span>
-                              <span className="span-btn month">$875/Month</span>
-                            </div>
-                            <span className="delivary">
-                              Two-Way Delivery: $125
-                            </span>
+                            <h5 className="title">320BL</h5>
+                            
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -515,7 +441,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="equipments-details.html"
+                              href="contact.js"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -530,7 +456,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="equipments-details.html"
+                            href="contact.js"
                             target="_self"
                             title="Equipment Image"
                           >
