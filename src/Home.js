@@ -231,7 +231,7 @@ function Home() {
         className="working-process light-gray pt-130 pb-90"
         data-aos="fade-right"
         data-aos-duration="1000"
-        data-aos-easing="ease-out-cubic"
+        data-aos-easing="ease-out-cubic" id="abt"
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -1467,8 +1467,7 @@ function Home() {
                     />
                   </a>
                   <p>
-                    Maecenas tempus, tellus eget condiment rhoncus, sem quam
-                    semper libero sita
+                    We provide reliable construction equipment solutions with a focus on precision, safety, and cost-effective service you can trust.
                   </p>
                   <div className="social-box">
                     <h5>Follow Us</h5>
@@ -1496,19 +1495,13 @@ function Home() {
                   <h4 className="widget-title">Useful Link</h4>
                   <ul className="widget-nav">
                     <li>
-                      <a href="contact.html">About</a>
+                      <a href="#abt">About</a>
                     </li>
                     <li>
-                      <a href="categories.html">Category</a>
+                      <a href="equipement.js">Equipment</a>
                     </li>
                     <li>
-                      <a href="blogs.html">Latest News</a>
-                    </li>
-                    <li>
-                      <a href="login.html">Login</a>
-                    </li>
-                    <li>
-                      <a href="singup.html">Register</a>
+                      <a href="contact.js">Contact</a>
                     </li>
                   </ul>
                 </div>
