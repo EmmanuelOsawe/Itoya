@@ -238,12 +238,11 @@ function Home() {
             <div className="col-lg-7">
               <div className="section-title text-center mb-55">
                 <span className="sub-title">
-                  <span className="sub-bg">Working</span> Process
+                  <span className="sub-bg">About Us</span>
                 </span>
-                <h2>Get Your Rentals In Easy 4 Steps</h2>
+                <h2> Rentals</h2>
                 <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit
+                  We are expanding our services and launching our equipment rental operations soon. With years of experience in buying and selling quality construction equipment, we are now bringing the same reliability and professionalism into rentals—making it easier, faster, and more affordable for clients to get the equipment they need.
                 </p>
               </div>
             </div>
