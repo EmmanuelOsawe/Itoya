@@ -260,12 +260,11 @@ function Home() {
             <div className="col-lg-7" data-aos="fade-up">
               <div className="section-title text-center mb-55">
                 <span className="sub-title">
-                  <span className="sub-bg">Awesome</span> Features
+                  <span className="sub-bg">Value</span>
                 </span>
-                <h2>Most Featured Equipment</h2>
+                <h2>Built for Performance. Driven by Trust.</h2>
                 <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit
+                  Precision service, fast and safe operations, and economically effective solutions.
                 </p>
               </div>
             </div>
@@ -278,7 +277,7 @@ function Home() {
                 </div>
                 <div className="content">
                   <h4>Precision Service</h4>
-                  <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+                  <p>We deliver accurate, reliable, and well-maintained equipment to ensure every job is done right the first time. Our focus on quality and attention to detail guarantees smooth and efficient operations on every project.</p>
                 </div>
               </div>
             </div>
@@ -289,7 +288,7 @@ function Home() {
                 </div>
                 <div className="content">
                   <h4>Fast &amp; Safety</h4>
-                  <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+                  <p>We value your time and safety. That’s why we ensure quick response, timely delivery, and strict safety standards, helping you complete your projects without delays or risks.</p>
                 </div>
               </div>
             </div>
@@ -300,7 +299,7 @@ function Home() {
                 </div>
                 <div className="content">
                   <h4>Economically Effect</h4>
-                  <p>Maecenas tempus tellus egetsem semper libero sit amet</p>
+                  <p>Our solutions are cost-effective and designed to give you the best value for your investment. With competitive pricing and low maintenance costs, we help you save money while achieving maximum performance.</p>
                 </div>
               </div>
             </div>
