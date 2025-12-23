@@ -324,7 +324,7 @@ function Home() {
                 </div>
                 <div className="content">
                   <h2>
-                    <span className="count">2500</span>+
+                    <span className="count">3</span>
                   </h2>
                   <h5>Equipment</h5>
                 </div>
@@ -338,9 +338,9 @@ function Home() {
                 </div>
                 <div className="content">
                   <h2>
-                    <span className="count">175</span>+
+                    <span className="count">15</span>
                   </h2>
-                  <h5>Coverage Area</h5>
+                  <h5>Buyers</h5>
                 </div>
               </div>
             </div>
@@ -352,9 +352,9 @@ function Home() {
                 </div>
                 <div className="content">
                   <h2>
-                    <span className="count">596</span>+
+                    <span className="count">Soon</span>
                   </h2>
-                  <h5>Total Brunch</h5>
+                  <h5>Branch</h5>
                 </div>
               </div>
             </div>
