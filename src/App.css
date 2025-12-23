@@ -276,3 +276,11 @@
   font-size: 24px;
   transition: all 0.5s cubic-bezier(0, 0, 0, 1);
 }
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}

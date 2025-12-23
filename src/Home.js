@@ -15,6 +15,7 @@ function Home() {
       {/*====== Start header Section ======*/}
       <header className="header-area-one">
         <div className="header-top-bar">
+          <p className="name">Itoya brothers limited</p>
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-lg-7"></div>
