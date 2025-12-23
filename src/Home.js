@@ -8,6 +8,8 @@ import LatestNews from "./news.jsx";
 import TestimonialSlider from "./TestimonialSlider.jsx";
 import ScrollToTop from "./ScrollToTop.jsx";
 import CircularText from './component/ui/getRotationTransition.jsx';
+import NewsletterMail from "./NewsletterMail";
+
 
 function Home() {
   return (
@@ -1417,35 +1419,8 @@ function Home() {
       <LatestNews />
       {/*====== End Blog Section ======*/}
 
-      {/*====== Start Newsletter Section ======*/}
-      <section className="newsletter-area pt-130">
-        <div className="container">
-          <div className="newsletter-wrapper-one">
-            <div className="row justify-content-center">
-              <div className="col-lg-8">
-                <div className="newsletter-content-box">
-                  <div className="section-title text-center mb-30">
-                    <h2>Subscribe Our Newsletter</h2>
-                  </div>
-                  <form className="newsletter-form">
-                    <div className="form_group">
-                      <input
-                        type="email"
-                        className="form_control"
-                        placeholder="Enter your email"
-                        name="email"
-                        required
-                      />
-                      <button className="newsletter-btn">Subscribe Now</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Newsletter Section ======*/}
+      <NewsletterMail />      
+
       {/*====== Start Footer ======*/}
       <footer
         className="footer-area footer-area-one bg_cover"
