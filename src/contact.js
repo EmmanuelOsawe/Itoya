@@ -2,6 +2,8 @@ import React from "react";
 import './App.css';
 import ContactForm from "./form";
 import ScrollToTop from "./ScrollToTop.jsx"; 
+import TextType from './TextType';
+import NewsletterMail from "./NewsletterMail";
 
 function Contact() {
   return (
@@ -9,56 +11,55 @@ function Contact() {
       {/*====== Start header Section ======*/}
       <header className="header-area-one">
         <div className="header-top-bar">
+          <div className="footer-brand">
+            <TextType
+              text={["Welcome to", "Itoya Brothers Limited!"]}
+              typingSpeed={75}
+              pauseDuration={1500}
+              showCursor={true}
+              cursorCharacter="|"
+              textColors={["rgba(247, 251, 28, 1)", "#ffffff"]}
+              className="hero-typing"
+            />
+
+            <ul className="footer-social">
+              <li>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-facebook-f" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send?phone=2348164286161&text=Hello I need"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-whatsapp" />
+                </a>
+              </li>
+              <li>
+                {" "}
+                <a
+                  href="mailto:emmanuelosawe3@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fas fa-envelope" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
           <div className="container-fluid">
             <div className="row align-items-center">
-              <div className="col-lg-7">
-                <div className="top-left">
-                  <span>
-                    <i className="fas fa-map-marker-alt" /> Washington DC, The
-                    United States
-                  </span>
-                  <span>
-                    <i className="fas fa-phone" />
-                    <a href="tel:+70122223333">+701-1111-2222-3333</a>
-                  </span>
-                </div>
-              </div>
+              <div className="col-lg-7"></div>
               <div className="col-lg-5">
                 <div className="top-right">
-                  <ul className="d-flex align-items-center justify-content-end">
-                    <li>
-                      <div className="lang-dropdown">
-                        <div className="lang">
-                          <img src="assets/images/lang.png" alt="lang" />
-                        </div>
-                        <select>
-                          <option value={0o1}>Eng</option>
-                          <option value={0o2}>Ger</option>
-                        </select>
-                      </div>
-                    </li>
-                    <li>
-                      <a
-                        href="cart.html"
-                        className="cart-btn"
-                        target="_self"
-                        title="Go to cart"
-                      >
-                        <i className="fas fa-shopping-cart" />
-                        <span className="count">02</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="login.html" target="_self" title="Login">
-                        Login
-                      </a>
-                    </li>
-                    <li>
-                      <a href="singup.html" target="_self" title="Signup">
-                        Signup
-                      </a>
-                    </li>
-                  </ul>
+                  <ul className="d-flex align-items-center justify-content-end"></ul>
                 </div>
               </div>
             </div>
@@ -74,7 +75,12 @@ function Contact() {
                   target="_self"
                   title="Brand Logo"
                 >
-                  <img src="assets/images/logo-1.png" alt="Brand Logo" />
+                  {" "}
+                  <img
+                    src="assets/images/logo.JPG"
+                    alt="Footer Logo"
+                    className="logo"
+                  />
                 </a>
               </div>
               <div className="nav-menu">
@@ -83,93 +89,17 @@ function Contact() {
                 </div>
                 <nav className="main-menu">
                   <ul>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="contact.html#" className="active">
+                    <li>
+                      <a href="/">
                         Home
                       </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="index.html">Home 01</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Home 02</a>
-                        </li>
-                      </ul>
+                      
                     </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="contact.html#">Equipment</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="equipments-list.html">Equipment</a>
-                        </li>
-                        <li>
-                          <a href="equipments-details.html">
-                            Equipment Details
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="contact.html#">Shop</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="shop.html">Our Shop</a>
-                        </li>
-                        <li>
-                          <a href="shop-details.html">Shop Details</a>
-                        </li>
-                        <li>
-                          <a href="cart.html">Cart</a>
-                        </li>
-                        <li>
-                          <a href="checkout.html">Checkout</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="contact.html#">Pages</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="categories.html">Categories</a>
-                        </li>
-                        <li>
-                          <a href="team.html">Our Team</a>
-                        </li>
-                        <li>
-                          <a href="faq.html">FAQ's</a>
-                        </li>
-                        <li>
-                          <a href="404-error.html">Error 404</a>
-                        </li>
-                        <li>
-                          <a href="coming-soon.html">Coming Soon</a>
-                        </li>
-                        <li>
-                          <a href="contact.html#">User</a>
-                          <ul className="sub-menu">
-                            <li>
-                              <a href="login.html">Login</a>
-                            </li>
-                            <li>
-                              <a href="singup.html">Signup</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="contact.html#">Blog</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="blogs.html">Our Blog</a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
+                    <li>
+                      <a href="/equipments">Equipment</a>
                     </li>
                     <li className="menu-item">
-                      <a href="contact.html">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </nav>
@@ -179,28 +109,13 @@ function Contact() {
                 <span />
                 <span />
               </div>
-              <div className="header-right-nav">
-                <div className="social-box">
-                  <ul className="social-link">
-                    <li>
-                      <a href="https://www.facebook.com" target="_blank">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I need " target="_blank">
-                        <i className="fab fa-whatsapp" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <div className="header-right-nav"></div>
             </div>
           </div>
         </div>
       </header>
       {/*====== End header Section ======*/}
-      {/*====== Start Hero Section ======*/}
+
       <section className="hero-area">
         <div
           className="breadcrumbs-area bg_cover"
@@ -212,18 +127,8 @@ function Contact() {
             <div className="row justify-content-center">
               <div className="col-lg-10">
                 <div className="page-title text-center">
-                  <h1 data-aos="fade-up">Contact Us</h1>
-                  <ul
-                    className="breadcrumbs-link d-flex justify-content-center"
-                    data-aos="fade-up"
-                  >
-                    <li>
-                      <a href="index.html" target="_self" title="Home">
-                        Home
-                      </a>
-                    </li>
-                    <li className="active">Contact</li>
-                  </ul>
+                  <h1 data-aos="fade-up">Reach Out </h1>
+                 
                 </div>
               </div>
             </div>
@@ -285,39 +190,15 @@ function Contact() {
         </div>
       </section>
 
-      {/*====== Start Newsletter ======*/}
-      <section className="newsletter-area pt-130">
-        <div className="container">
-          <div className="newsletter-wrapper-one">
-            <div className="row justify-content-center">
-              <div className="col-lg-8">
-                <div className="newsletter-content-box">
-                  <div className="section-title text-center mb-30">
-                    <h2>Subscribe Our Newsletter</h2>
-                  </div>
-                  <form className="newsletter-form">
-                    <div className="form_group">
-                      <input
-                        type="email"
-                        className="form_control"
-                        placeholder="Enter your email"
-                        name="email"
-                        required
-                      />
-                      <button className="newsletter-btn">Subscribe Now</button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Newsletter ======*/}
+      <NewsletterMail />
+
       {/*====== Start Footer ======*/}
       <footer
         className="footer-area footer-area-one bg_cover"
-        style={{ backgroundImage: "url(assets/images/bg/footer-bg-1.jpg)" }}
+        style={{
+          backgroundImage: "url(assets/images/bg/footer-bg-1.jpg)",
+          borderRadius: "20px",
+        }}
       >
         <div className="footer-widget">
           <div className="container">
@@ -326,13 +207,15 @@ function Contact() {
                 <div className="widget about-widget mb-40">
                   <a href="index.html" className="brand-logo">
                     <img
-                      src="assets/images/footer-logo.png"
+                      src="assets/images/logo.JPG"
                       alt="Footer Logo"
+                      className="logo"
                     />
                   </a>
-                  <p>
-                    Maecenas tempus, tellus eget condiment rhoncus, sem quam
-                    semper libero sita
+                  <p className="footext">
+                    We provide reliable construction equipment solutions with a
+                    focus on precision, safety, and cost-effective service you
+                    can trust.
                   </p>
                   <div className="social-box">
                     <h5>Follow Us</h5>
@@ -343,18 +226,8 @@ function Contact() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com" target="_blank">
-                          <i className="fab fa-twitter" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://linkedin.com" target="_blank">
-                          <i className="fab fa-linkedin-in" />
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://pinterest.com" target="_blank">
-                          <i className="fab fa-pinterest-p" />
+                        <a href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I need help with">
+                          <i className="fab fa-whatsapp" />
                         </a>
                       </li>
                     </ul>
@@ -370,19 +243,13 @@ function Contact() {
                   <h4 className="widget-title">Useful Link</h4>
                   <ul className="widget-nav">
                     <li>
-                      <a href="contact.html">About</a>
+                      <a href="#abt">About</a>
                     </li>
                     <li>
-                      <a href="categories.html">Category</a>
+                      <a href="equipement.js">Equipment</a>
                     </li>
                     <li>
-                      <a href="blogs.html">Latest News</a>
-                    </li>
-                    <li>
-                      <a href="login.html">Login</a>
-                    </li>
-                    <li>
-                      <a href="singup.html">Register</a>
+                      <a href="contact.js">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -401,13 +268,8 @@ function Contact() {
                       </div>
                       <div className="info">
                         <p>
-                          <a href="mailto:demotext456@gmail.com">
-                            demotext456@gmail.com
-                          </a>
-                        </p>
-                        <p>
-                          <a href="mailto:exapleemail@gmail.com">
-                            exapleemail@gmail.com
+                          <a href="mailto:charlesitoya@gmail.com">
+                            charlesitoya@gmail.com
                           </a>
                         </p>
                       </div>
@@ -418,10 +280,10 @@ function Contact() {
                       </div>
                       <div className="info">
                         <p>
-                          <a href="tel:+2348164286161">+234 816 428 6161</a>
+                          <a href="tel:+2348164286161">+2348164286161</a>
                         </p>
                         <p>
-                          <a href="tel:+2348073461017">+234 807 346 1017</a>
+                          <a href="tel:+2348073461017">+2348073461017</a>
                         </p>
                       </div>
                     </li>
@@ -430,8 +292,11 @@ function Contact() {
                         <i className="fas fa-map-marker-alt" />
                       </div>
                       <div className="info">
-                        <p>2759 Renwick Drive Pennsylvania</p>
-                        <p>450 Young Road New York</p>
+                        <p>Opp Public Service Institute of Nigeria,</p>
+                        <p>
+                          Dutsen Alhaji Junction, Kubwa Express Way, Abuja,
+                          Nigeria
+                        </p>
                       </div>
                     </li>
                   </ul>
@@ -446,7 +311,7 @@ function Contact() {
               <div className="col-lg-12">
                 <div className="copyright-text text-center">
                   <p>
-                    Copyright © 2022 <a href="index.html">Renowk</a>, All Rights
+                    Copyright © 2025 <a href="index.html">Renowk</a>, All Rights
                     Reserved.
                   </p>
                 </div>
@@ -456,7 +321,7 @@ function Contact() {
         </div>
       </footer>
       {/*====== End Footer ======*/}
-      {/*====== back-to-top ======*/}
+
       <div className="back-to-top">
         <i className="fas fa-angle-up" />
       </div>

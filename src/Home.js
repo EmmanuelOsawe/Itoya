@@ -11,7 +11,6 @@ import CircularText from "./component/ui/getRotationTransition.jsx";
 import NewsletterMail from "./NewsletterMail";
 import TextType from './TextType';
 
-
 function Home() {
   return (
     <div>

@@ -5,7 +5,6 @@ import ScrollToTop from "./ScrollToTop.jsx";
 import TextType from './TextType';
 import NewsletterMail from "./NewsletterMail";
 
-
 function Equip() {
   return (
 <div classname="equip">
