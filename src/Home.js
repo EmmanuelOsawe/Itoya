@@ -7,8 +7,9 @@ import "swiper/css/autoplay";
 import LatestNews from "./news.jsx";
 import TestimonialSlider from "./TestimonialSlider.jsx";
 import ScrollToTop from "./ScrollToTop.jsx";
-import CircularText from './component/ui/getRotationTransition.jsx';
+import CircularText from "./component/ui/getRotationTransition.jsx";
 import NewsletterMail from "./NewsletterMail";
+import TextType from './TextType';
 
 
 function Home() {
@@ -17,7 +18,39 @@ function Home() {
       {/*====== Start header Section ======*/}
       <header className="header-area-one">
         <div className="header-top-bar">
-          <p className="name">Itoya brothers limited</p>
+          <div className="footer-brand">
+            <TextType
+              text={["Welcome to", "Itoya Brothers Limited!"]}
+              typingSpeed={75}
+              pauseDuration={1500}
+              showCursor={true}
+              cursorCharacter="|"
+              textColors={["rgba(247, 251, 28, 1)", "#ffffff"]}
+              className="hero-typing"
+            />
+
+            <ul className="footer-social">
+              <li>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-facebook-f" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send?phone=2348164286161&text=Hello I need"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fab fa-whatsapp" />
+                </a>
+              </li>
+            </ul>
+          </div>
+
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-lg-7"></div>
@@ -73,9 +106,7 @@ function Home() {
                           <a href="equipments.js">Equipment</a>
                         </li>
                         <li>
-                          <a href="contact.js">
-                            Equipment Details
-                          </a>
+                          <a href="contact.js">Equipment Details</a>
                         </li>
                       </ul>
                     </li>
@@ -149,22 +180,7 @@ function Home() {
                 <span />
                 <span />
               </div>
-              <div className="header-right-nav">
-                <div className="social-box">
-                  <ul className="social-link">
-                    <li>
-                      <a href="https://www.facebook.com" target="_blank">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I need ">
-                        <i className="fab fa-whatsapp" />
-                      </a>
-                    </li>
-                  </ul>
-                </div>{" "}
-              </div>
+              <div className="header-right-nav"></div>
             </div>
           </div>
         </div>
@@ -214,9 +230,8 @@ function Home() {
                     successful projects and lasting partnerships."
                   </h5>
                 </div>
-
-                <br></br> <br></br><br></br>
-                
+                <br></br> <br></br>
+                <br></br>
                 <CircularText
                   text="ITOYA*BROTHERS*LIMITED*"
                   onHover="speedUp"
@@ -233,7 +248,8 @@ function Home() {
         className="working-process light-gray pt-130 pb-90"
         data-aos="fade-right"
         data-aos-duration="1000"
-        data-aos-easing="ease-out-cubic" id="abt"
+        data-aos-easing="ease-out-cubic"
+        id="abt"
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -244,7 +260,12 @@ function Home() {
                 </span>
                 <h2> Rentals</h2>
                 <p>
-                  We are expanding our services and launching our equipment rental operations soon. With years of experience in buying and selling quality construction equipment, we are now bringing the same reliability and professionalism into rentals—making it easier, faster, and more affordable for clients to get the equipment they need.
+                  We are expanding our services and launching our equipment
+                  rental operations soon. With years of experience in buying and
+                  selling quality construction equipment, we are now bringing
+                  the same reliability and professionalism into rentals—making
+                  it easier, faster, and more affordable for clients to get the
+                  equipment they need.
                 </p>
               </div>
             </div>
@@ -266,7 +287,8 @@ function Home() {
                 </span>
                 <h2>Built for Performance. Driven by Trust.</h2>
                 <p>
-                  Precision service, fast and safe operations, and economically effective solutions.
+                  Precision service, fast and safe operations, and economically
+                  effective solutions.
                 </p>
               </div>
             </div>
@@ -279,7 +301,12 @@ function Home() {
                 </div>
                 <div className="content">
                   <h4>Precision Service</h4>
-                  <p>We deliver accurate, reliable, and well-maintained equipment to ensure every job is done right the first time. Our focus on quality and attention to detail guarantees smooth and efficient operations on every project.</p>
+                  <p>
+                    We deliver accurate, reliable, and well-maintained equipment
+                    to ensure every job is done right the first time. Our focus
+                    on quality and attention to detail guarantees smooth and
+                    efficient operations on every project.
+                  </p>
                 </div>
               </div>
             </div>
@@ -290,7 +317,11 @@ function Home() {
                 </div>
                 <div className="content">
                   <h4>Fast &amp; Safety</h4>
-                  <p>We value your time and safety. That’s why we ensure quick response, timely delivery, and strict safety standards, helping you complete your projects without delays or risks.</p>
+                  <p>
+                    We value your time and safety. That’s why we ensure quick
+                    response, timely delivery, and strict safety standards,
+                    helping you complete your projects without delays or risks.
+                  </p>
                 </div>
               </div>
             </div>
@@ -301,7 +332,12 @@ function Home() {
                 </div>
                 <div className="content">
                   <h4>Economically Effect</h4>
-                  <p>Our solutions are cost-effective and designed to give you the best value for your investment. With competitive pricing and low maintenance costs, we help you save money while achieving maximum performance.</p>
+                  <p>
+                    Our solutions are cost-effective and designed to give you
+                    the best value for your investment. With competitive pricing
+                    and low maintenance costs, we help you save money while
+                    achieving maximum performance.
+                  </p>
                 </div>
               </div>
             </div>
@@ -385,7 +421,7 @@ function Home() {
             <div className="col-lg-6" data-aos="fade-up">
               <div className="section-title text-center mb-50">
                 <span className="sub-title">
-                  <span className="sub-bg">Equipment</span> 
+                  <span className="sub-bg">Equipment</span>
                 </span>
               </div>
             </div>
@@ -412,7 +448,7 @@ function Home() {
                         <div className="pricing-info">
                           <div className="pricing-body">
                             <h5 className="title">320BL</h5>
-                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -529,7 +565,7 @@ function Home() {
                         <div className="pricing-info">
                           <div className="pricing-body">
                             <h5 className="title">escavator 320BL</h5>
-                            
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -590,7 +626,6 @@ function Home() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          
                           <div className="pricing-body">
                             <h5 className="title">320L</h5>
                             <ul className="info-list">
@@ -651,8 +686,8 @@ function Home() {
                         <div className="pricing-info">
                           <div className="pricing-body">
                             <h5 className="title">Grader 140g</h5>
-                            
-                           <ul className="info-list">
+
+                            <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
                               <li>Model: Lot456</li>
@@ -708,9 +743,7 @@ function Home() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          
                           <div className="pricing-body">
-                            
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -773,8 +806,7 @@ function Home() {
                         <div className="pricing-info">
                           <div className="pricing-body">
                             <h5 className="title">320L</h5>
-                            <div className="price-option">
-                            </div>
+                            <div className="price-option"></div>
                             <span className="delivary">
                               Two-Way Delivery: $125
                             </span>
@@ -834,10 +866,9 @@ function Home() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          
                           <div className="pricing-body">
                             <h5 className="title">320BL</h5>
-                          
+
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -894,9 +925,7 @@ function Home() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          
                           <div className="pricing-body">
-                            
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1100,9 +1129,7 @@ function Home() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          
                           <div className="pricing-body">
-                            
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1306,9 +1333,7 @@ function Home() {
                           </a>
                         </div>
                         <div className="pricing-info">
-                          
                           <div className="pricing-body">
-                            
                             <ul className="info-list">
                               <li>Maximum Reach: 2 Meter</li>
                               <li>Operating Weight: 0.6 Ton</li>
@@ -1419,7 +1444,7 @@ function Home() {
       <LatestNews />
       {/*====== End Blog Section ======*/}
 
-      <NewsletterMail />      
+      <NewsletterMail />
 
       {/*====== Start Footer ======*/}
       <footer
@@ -1441,8 +1466,10 @@ function Home() {
                       className="logo"
                     />
                   </a>
-                  <p>
-                    We provide reliable construction equipment solutions with a focus on precision, safety, and cost-effective service you can trust.
+                  <p className="footext">
+                    We provide reliable construction equipment solutions with a
+                    focus on precision, safety, and cost-effective service you
+                    can trust.
                   </p>
                   <div className="social-box">
                     <h5>Follow Us</h5>
