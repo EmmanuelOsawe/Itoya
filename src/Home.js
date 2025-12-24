@@ -48,6 +48,16 @@ function Home() {
                   <i className="fab fa-whatsapp" />
                 </a>
               </li>
+              <li>
+                {" "}
+                <a
+                  href="mailto:emmanuelosawe3@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fas fa-envelope" />
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -86,91 +96,17 @@ function Home() {
                 </div>
                 <nav className="main-menu">
                   <ul>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="index.html#" className="active">
+                    <li>
+                      <a href="/">
                         Home
                       </a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="index.html">Home 01</a>
-                        </li>
-                        <li>
-                          <a href="index-2.html">Home 02</a>
-                        </li>
-                      </ul>
+                      
                     </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="index.html#">Equipment</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="equipments.js">Equipment</a>
-                        </li>
-                        <li>
-                          <a href="contact.js">Equipment Details</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="index.html#">Shop</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="shop.html">Our Shop</a>
-                        </li>
-                        <li>
-                          <a href="shop-details.html">Shop Details</a>
-                        </li>
-                        <li>
-                          <a href="cart.html">Cart</a>
-                        </li>
-                        <li>
-                          <a href="checkout.html">Checkout</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="index.html#">Pages</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="categories.html">Categories</a>
-                        </li>
-                        <li>
-                          <a href="team.html">Our Team</a>
-                        </li>
-                        <li>
-                          <a href="faq.html">FAQ's</a>
-                        </li>
-                        <li>
-                          <a href="404-error.html">Error 404</a>
-                        </li>
-                        <li>
-                          <a href="coming-soon.html">Coming Soon</a>
-                        </li>
-                        <li>
-                          <a href="index.html#">User</a>
-                          <ul className="sub-menu">
-                            <li>
-                              <a href="login.html">Login</a>
-                            </li>
-                            <li>
-                              <a href="singup.html">Signup</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="index.html#">Blog</a>
-                      <ul className="sub-menu">
-                        <li>
-                          <a href="blogs.html">Our Blog</a>
-                        </li>
-                        <li>
-                          <a href="blog-details.html">Blog Details</a>
-                        </li>
-                      </ul>
+                    <li>
+                      <a href="/equipments">Equipment</a>
                     </li>
                     <li className="menu-item">
-                      <a href="contact.html">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </nav>
