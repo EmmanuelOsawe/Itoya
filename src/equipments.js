@@ -3,6 +3,7 @@ import './App.css';
 import EquipmentCubes from "./EquipmentCubes"; 
 import ScrollToTop from "./ScrollToTop.jsx"; 
 import TextType from './TextType';
+import NewsletterMail from "./NewsletterMail";
 
 
 function Equip() {
@@ -122,10 +123,8 @@ function Equip() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="page-title text-center">
-              <h1 data-aos="fade-up">Equipment Details</h1>
+              <h1 data-aos="fade-up"> Equipment</h1>
               <ul className="breadcrumbs-link d-flex justify-content-center" data-aos="fade-up">
-                <li><a href="index.html" target="_self" title="Home">Home</a></li>
-                <li className="active">Equipment Details</li>
               </ul>
             </div>
           </div>
@@ -137,112 +136,138 @@ function Equip() {
 <br></br><br></br><br></br>
 <EquipmentCubes />
 
- {/*====== Start Newsletter Section ======*/}
-  <section className="newsletter-area pt-130">
-    <div className="container">
-      <div className="newsletter-wrapper-one">
-        <div className="row justify-content-center">
-          <div className="col-lg-8">
-            <div className="newsletter-content-box">
-              <div className="section-title text-center mb-30">
-                <h2>Subscribe Our Newsletter</h2>
-              </div>
-              <form className="newsletter-form">
-                <div className="form_group">
-                  <input type="email" className="form_control" placeholder="Enter your email" name="email" required />
-                  <button className="newsletter-btn">Subscribe Now</button>
+<NewsletterMail />
+
+      {/*====== Start Footer ======*/}
+      <footer
+        className="footer-area footer-area-one bg_cover"
+        style={{
+          backgroundImage: "url(assets/images/bg/footer-bg-1.jpg)",
+          borderRadius: "20px",
+        }}
+      >
+        <div className="footer-widget">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-4 col-md-6" data-aos="fade-up">
+                <div className="widget about-widget mb-40">
+                  <a href="index.html" className="brand-logo">
+                    <img
+                      src="assets/images/logo.JPG"
+                      alt="Footer Logo"
+                      className="logo"
+                    />
+                  </a>
+                  <p className="footext">
+                    We provide reliable construction equipment solutions with a
+                    focus on precision, safety, and cost-effective service you
+                    can trust.
+                  </p>
+                  <div className="social-box">
+                    <h5>Follow Us</h5>
+                    <ul className="social-link">
+                      <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://api.whatsapp.com/send?phone=+2348164286161&text=Hello I need help with">
+                          <i className="fab fa-whatsapp" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/*====== End Newsletter Section ======*/}
-  {/*====== Start Footer ======*/}
-  <footer className="footer-area footer-area-one bg_cover" style={{backgroundImage: 'url(assets/images/bg/footer-bg-1.jpg)'}}>
-    <div className="footer-widget">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-4 col-md-6" data-aos="fade-up">
-            <div className="widget about-widget mb-40">
-              <a href="index.html" className="brand-logo"><img src="assets/images/footer-logo.png" alt="Footer Logo" /></a>
-              <p>Maecenas tempus, tellus eget condiment
-                rhoncus, sem quam semper libero sita</p>
-              <div className="social-box">
-                <h5>Follow Us</h5>
-                <ul className="social-link">
-                  <li><a href="https://www.facebook.com" target="_blank"><i className="fab fa-facebook-f" /></a></li>
-                  <li><a href="https://twitter.com" target="_blank"><i className="fab fa-twitter" /></a></li>
-                  <li><a href="https://linkedin.com" target="_blank"><i className="fab fa-linkedin-in" /></a></li>
-                  <li><a href="https://pinterest.com" target="_blank"><i className="fab fa-pinterest-p" /></a></li>
-                </ul>
+              </div>
+              <div
+                className="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay={100}
+              >
+                <div className="widget footer-widget-nav mb-40">
+                  <h4 className="widget-title">Useful Link</h4>
+                  <ul className="widget-nav">
+                    <li>
+                      <a href="#abt">About</a>
+                    </li>
+                    <li>
+                      <a href="equipement.js">Equipment</a>
+                    </li>
+                    <li>
+                      <a href="contact.js">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6"
+                data-aos="fade-up"
+                data-aos-delay={150}
+              >
+                <div className="widget contact-info-widget mb-40">
+                  <h4 className="widget-title">Contact Information</h4>
+                  <ul className="contact-info-list">
+                    <li>
+                      <div className="icon">
+                        <i className="fas fa-paper-plane" />
+                      </div>
+                      <div className="info">
+                        <p>
+                          <a href="mailto:charlesitoya@gmail.com">
+                            charlesitoya@gmail.com
+                          </a>
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <i className="fas fa-phone" />
+                      </div>
+                      <div className="info">
+                        <p>
+                          <a href="tel:+2348164286161">+2348164286161</a>
+                        </p>
+                        <p>
+                          <a href="tel:+2348073461017">+2348073461017</a>
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="icon">
+                        <i className="fas fa-map-marker-alt" />
+                      </div>
+                      <div className="info">
+                        <p>Opp Public Service Institute of Nigeria,</p>
+                        <p>
+                          Dutsen Alhaji Junction, Kubwa Express Way, Abuja,
+                          Nigeria
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={100}>
-            <div className="widget footer-widget-nav mb-40">
-              <h4 className="widget-title">Useful Link</h4>
-              <ul className="widget-nav">
-                <li><a href="contact.html">About</a></li>
-                <li><a href="categories.html">Category</a></li>
-                <li><a href="blogs.html">Latest News</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="singup.html">Register</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={150}>
-            <div className="widget contact-info-widget mb-40">
-              <h4 className="widget-title">Contact Information</h4>
-              <ul className="contact-info-list">
-                <li>
-                  <div className="icon">
-                    <i className="fas fa-paper-plane" />
-                  </div>
-                  <div className="info">
-                    <p><a href="mailto:demotext456@gmail.com">demotext456@gmail.com</a></p>
-                    <p><a href="mailto:exapleemail@gmail.com">exapleemail@gmail.com</a></p>
-                  </div>
-                </li>
-                <li>
-                  <div className="icon">
-                    <i className="fas fa-phone" />
-                  </div>
-                  <div className="info">
-                    <p><a href="tel:123456789">+701 - 1111 - 2222 - 3333</a></p>
-                    <p><a href="tel:123456789">+802 - 2222 - 3333 - 4444</a></p>
-                  </div>
-                </li>
-                <li>
-                  <div className="icon">
-                    <i className="fas fa-map-marker-alt" />
-                  </div>
-                  <div className="info">
-                    <p>2759 Renwick Drive
-                      Pennsylvania</p>
-                    <p>450 Young Road New York</p>
-                  </div>
-                </li>
-              </ul>
+        </div>
+        <div className="copyright-area">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="copyright-text text-center">
+                  <p>
+                    Copyright © 2025 <a href="index.html">Renowk</a>, All Rights
+                    Reserved.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div className="copyright-area">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="copyright-text text-center">
-              <p>Copyright © 2022 <a href="index.html">Renowk</a>, All Rights Reserved.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+      </footer>
+      {/*====== End Footer ======*/}
+
 
     <ScrollToTop />
 </div>
