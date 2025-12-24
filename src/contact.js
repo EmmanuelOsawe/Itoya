@@ -1,9 +1,9 @@
 import React from "react";
 import './App.css';
-import ContactForm from "./form";
-import ScrollToTop from "./ScrollToTop.jsx"; 
-import TextType from './TextType';
-import NewsletterMail from "./NewsletterMail";
+import ContactForm from "./component/ui/form";
+import ScrollToTop from "./component/ui/ScrollToTop.jsx"; 
+import TextType from './component/ui/TextType.jsx';
+import NewsletterMail from "./component/ui/NewsletterMail.jsx";
 
 function Contact() {
   return (
@@ -243,13 +243,13 @@ function Contact() {
                   <h4 className="widget-title">Useful Link</h4>
                   <ul className="widget-nav">
                     <li>
-                      <a href="#abt">About</a>
+                      <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="equipement.js">Equipment</a>
+                      <a href="/equipments">Equipment</a>
                     </li>
                     <li>
-                      <a href="contact.js">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </div>

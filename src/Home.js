@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
-import Hero from "./slider.jsx";
+import Hero from "./component/ui/slider.jsx";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-import LatestNews from "./news.jsx";
-import TestimonialSlider from "./TestimonialSlider.jsx";
-import ScrollToTop from "./ScrollToTop.jsx";
+import LatestNews from "./component/ui/news.jsx";
+import TestimonialSlider from "./component/ui/TestimonialSlider.jsx";
+import ScrollToTop from "./component/ui/ScrollToTop.jsx";
 import CircularText from "./component/ui/getRotationTransition.jsx";
-import NewsletterMail from "./NewsletterMail";
-import TextType from './TextType';
+import NewsletterMail from "./component/ui/NewsletterMail.jsx";
+import TextType from './component/ui/TextType.jsx';
 
 function Home() {
   return (
@@ -1435,10 +1435,10 @@ function Home() {
                       <a href="#abt">About</a>
                     </li>
                     <li>
-                      <a href="equipement.js">Equipment</a>
+                      <a href="/equipments">Equipment</a>
                     </li>
                     <li>
-                      <a href="contact.js">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </div>
