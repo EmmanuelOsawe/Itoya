@@ -50,7 +50,7 @@ function Home() {
               <li>
                 {" "}
                 <a
-                  href="mailto:emmanuelosawe3@gmail.com"
+                  href="mailto:charlesitoya.@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >

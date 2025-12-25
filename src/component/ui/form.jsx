@@ -24,7 +24,7 @@ Email: ${email}
 Message: ${message}
     `;
 
-    const whatsappURL = `https://wa.me/2348050940143?text=${encodeURIComponent(
+    const whatsappURL = `https://wa.me/2348164286161?text=${encodeURIComponent(
       whatsappMessage
     )}`;
 
