@@ -83,8 +83,8 @@ function Home() {
                 >
                   {" "}
                   <img
-                    src="assets/images/logo.JPG"
-                    alt="Footer Logo"
+                    src="assets/images/logo.png"
+                    alt="Logo"
                     className="logo"
                   />
                 </a>
@@ -1396,8 +1396,8 @@ function Home() {
                 <div className="widget about-widget mb-40">
                   <a href="index.html" className="brand-logo">
                     <img
-                      src="assets/images/logo.JPG"
-                      alt="Footer Logo"
+                      src="assets/images/logobg.jpg"
+                      alt="Logo"
                       className="logo"
                     />
                   </a>
