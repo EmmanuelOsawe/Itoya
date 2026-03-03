@@ -10,6 +10,7 @@ import ScrollToTop from "./component/ui/ScrollToTop.jsx";
 import CircularText from "./component/ui/getRotationTransition.jsx";
 import NewsletterMail from "./component/ui/NewsletterMail.jsx";
 import TextType from './component/ui/TextType.jsx';
+import VideoPlayer from "./component/ui/VideoPlayer.jsx";
 
 function Home() {
   return (
@@ -96,10 +97,7 @@ function Home() {
                 <nav className="main-menu">
                   <ul>
                     <li>
-                      <a href="/">
-                        Home
-                      </a>
-                      
+                      <a href="/">Home</a>
                     </li>
                     <li>
                       <a href="/equipments">Equipment</a>
@@ -1375,6 +1373,9 @@ function Home() {
         </div>
       </section>
       {/*====== End CTA Section ======*/}
+
+      <VideoPlayer />
+
       {/*====== Start Blog Section ======*/}
       <LatestNews />
       {/*====== End Blog Section ======*/}
