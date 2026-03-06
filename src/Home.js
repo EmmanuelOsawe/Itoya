@@ -18,6 +18,10 @@ function Home() {
       {/*====== Start header Section ======*/}
       <header className="header-area-one">
         <div className="header-top-bar">
+          
+          <img 
+          src="assets/images/logo.png" alt="Logo" className="h-logo img-fluid" /> 
+                   
           <div className="footer-brand">
             <TextType
               text={["Welcome to", "Itoya Brothers Limited!"]}
@@ -83,11 +87,6 @@ function Home() {
                   title="Brand Logo"
                 >
                   {" "}
-                  <img
-                    src="assets/images/logo.png"
-                    alt="Logo"
-                    className="logo"
-                  />
                 </a>
               </div>
               <div className="nav-menu">

@@ -72,6 +72,27 @@
   object-fit: cover;
 }
 
+
+.h-logo{
+  width: 150px;
+  height: auto;
+  margin-bottom: -70px;
+  margin-left: 60px;
+  padding-top: -80px;
+}
+
+@media (max-width: 768px){
+  .h-logo{
+    width: 120px;
+  }
+}
+
+@media (max-width: 480px){
+  .h-logo{
+    width: 100px;
+  }
+}
+
 @media (min-width: 992px) {
   .logo {
     width: 90px;
