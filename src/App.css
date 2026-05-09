@@ -2,33 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* =========================
+   HEADER FIX (PREVENT PUSHING LAYOUT OFF CENTER)
+========================= */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.responsive-header {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  gap: 15px;
+}
+
+.h-logo {
+  width: 140px;
+  height: auto;
+  margin: 0; /* removed left shifting issue */
+}
+
+.hero-typing {
+  flex: 1;
+  text-align: center;
+  font-size: clamp(18px, 4vw, 40px);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.footer-social {
   color: white;
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+.logo {
+  width: 80px;
+  height: auto;
+  border-radius: 40px;
 }
 
-@keyframes App-logo-spin {
+/* =========================
+   CLEAN ROTATION
+========================= */
+
+@keyframes cleanRotate {
   from {
     transform: rotate(0deg);
   }
@@ -37,355 +63,144 @@
   }
 }
 
+/* =========================
+   🔥 TRUE CENTER ORBIT WRAPPER
+   (THIS IS THE IMPORTANT FIX)
+========================= */
+
+.circular-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  padding: 20px 0;  /* reduced spacing to next section */
+  margin: 0 auto;
+
+  overflow: visible;
+}
+
+/* =========================
+   ROTATING TEXT (FORCED CENTER)
+========================= */
+
+.circular-text {
+  width: 260px;
+  height: 260px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 900;
+  color: green;
+
+  position: relative;
+
+  /* 🔥 ensures absolute centering inside full page */
+  margin: 0 auto;
+
+  animation: cleanRotate 14s linear infinite;
+
+  transform-origin: center;
+}
+
+/* hover = stop rotation */
+.circular-text:hover {
+  animation-play-state: paused;
+}
+
+/* LETTERS AROUND CIRCLE */
+.circular-text span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform-origin: 0 -115px;
+  font-size: 18px;
+  font-weight: 900;
+  color: green;
+}
+
+/* =========================
+   DESKTOP FIX (FORCE FULL CENTER CONTROL)
+========================= */
+
+@media (min-width: 992px) {
+  .circular-wrapper {
+    justify-content: flex-start;
+  }
+
+  .circular-text {
+    margin-left: -16vw; /* 🔥 stronger left shift on desktop */
+  }
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 768px) {
+  .circular-text {
+    width: 200px;
+    height: 200px;
+    animation: cleanRotate 10s linear infinite;
+  }
+
+  .circular-wrapper {
+    padding: 20px 0;
+  }
+}
+
+/* =========================
+   MOBILE (SMALLER CIRCLE)
+========================= */
+
+@media (max-width: 480px) {
+  .circular-text {
+    width: 140px;
+    height: 140px;
+  }
+
+  .circular-text span {
+    transform-origin: 0 -70px;
+    font-size: 14px;
+  }
+}
+
+/* =========================
+   TEXT TYPE
+========================= */
+
+.text-type {
+  display: inline-block;
+  text-align: center;
+}
+
+/* =========================
+   SWIPER
+========================= */
 
 .swiper {
   padding-bottom: 40px;
 }
 
-.blog-post-item {
-  height: 100%;
-}
-
-.blog-slider-one {
-  cursor: grab;
-}
-
-.blog-slider-one:active {
-  cursor: grabbing;
-}
-
-
-.blog-slider-one .swiper-wrapper {
-  display: flex !important;
-  flex-direction: row !important;
-}
-
-.blog-slider-one .swiper-slide {
-  height: auto;
-}
-
-
-.logo {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-
-.h-logo{
-  width: 150px;
-  height: auto;
-  margin-bottom: -70px;
-  margin-left: 60px;
-  padding-top: -80px;
-}
-
-@media (max-width: 768px){
-  .h-logo{
-    width: 120px;
-  }
-}
-
-@media (max-width: 480px){
-  .h-logo{
-    width: 100px;
-  }
-}
-
-@media (min-width: 992px) {
-  .logo {
-    width: 90px;
-    height: 90px;
-  }
-}
-
-
-
-/* Tablet */
-@media (max-width: 768px) {
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
-}
-
-/* Mobile */
-@media (max-width: 480px) {
-  .logo {
-    width: 40px;
-    height: 40px;
-  }
-}
-
-
-/* Card */
-.news-card {
-  background: #fff;
-}
-
-.news-card img {
-  width: 100%;
-  display: block;
-}
-
-.news-tag {
-  display: inline-block;
-  background: #f9a826;
-  padding: 6px 14px;
-  margin-top: -18px;
-  position: relative;
-  font-weight: 600;
-}
-
-.latest-news-item {
-  cursor:grab; /* hand cursor on hover */
-}
-
-/* Fix input text color */
-.hero-area .form_control {
-  color: #000;
-  background-color: #fff;
-}
-
-/* Fix placeholder visibility */
-.hero-area .form_control::placeholder {
-  color: #777;
-  opacity: 1;
-}
-
-/* For older browsers */
-.hero-area .form_control::-webkit-input-placeholder {
-  color: #777;
-}
-.hero-area .form_control:-ms-input-placeholder {
-  color: #777;
-}
-
-/* Hide arrows by default */
-.hero-slider-one .swiper-button-prev,
-.hero-slider-one .swiper-button-next {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-/* Show arrows when hovering the hero section */
-.hero-area:hover .swiper-button-prev,
-.hero-area:hover .swiper-button-next {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Optional: style arrows nicely */
-.hero-slider-one .swiper-button-prev,
-.hero-slider-one .swiper-button-next {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  color: #fff;
-}
-
-/* Arrow icon size */
-.hero-slider-one .swiper-button-prev::after,
-.hero-slider-one .swiper-button-next::after {
-  font-size: 16px;
-}
-
-
-.hero-arrows {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 40px;
-  transform: translateY(-50%);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  z-index: 10;
-}
-
-.hero-area:hover .hero-arrows {
-  opacity: 1;
-}
-
-.hero-prev,
-.hero-next {
-  width: 45px;
-  height: 45px;
-  background: #0b1b3f;
-  color: #fff;
-  font-size: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 6px;
-  user-select: none;
-}
-
-
-.cube-card {
-  text-align: center;
-}
-
-.cube-container {
-  width: 260px;
-  height: 260px;
-  margin: auto;
-  perspective: 900px;
-  cursor: grab;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.1s linear;
-}
-
-.face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.face img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.front  { transform: rotateY(0deg) translateZ(130px); }
-.back   { transform: rotateY(180deg) translateZ(130px); }
-.right  { transform: rotateY(90deg) translateZ(130px); }
-.left   { transform: rotateY(-90deg) translateZ(130px); }
-.top    { transform: rotateX(90deg) translateZ(130px); }
-.bottom { transform: rotateX(-90deg) translateZ(130px); }
-
-.cube-description {
-  margin-top: 15px;
-}
-
-.circular-text {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-weight: 900;
-  color: green;
-  text-align: center;
-  cursor: pointer;
-
-  position: absolute;
-  top: 80%;
-  left: -50%;
-  transform: translate(-50%, -50%);
-}
-
-
-.circular-text span {
-  position: absolute;
-  display: inline-block;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  font-size: 24px;
-  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
-}
-
-.footer-brand {
-  position: relative;
-  width: 100%;
-  height: 40px; /* adjust if needed */
-}
-
-/* CENTER TEXT */
-.footer-name {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  white-space: nowrap;
-}
-
-/* RIGHT SOCIAL ICONS */
-.footer-social {
-  position: absolute;
-  right: 30px; /* move further right if needed */
-  top: 50%;
-  transform: translateY(-50%);
-
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 14px;
-}
-
-.footer-social li a {
-  color: #fff;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.footer-social li a:hover {
-  color: #fba31c;
-}
-
-.footext {
-   font-size: 4px;
-   font-weight: lighter;
-   font-style: italic;
-}
-
-/* CENTER THE TEXT TYPE */
-.text-type {
-  display: inline-block;
-  white-space: pre-wrap;
-  text-align: center;
-}
-
-/* Wrapper to center it on the page */
-.hero-typing {
-  display: block;
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 30px;
-}
-
-/* Cursor styles (unchanged, just cleaned) */
-.text-type__cursor {
-  margin-left: 0.25rem;
-  display: inline-block;
-  opacity: 1;
-}
-
-.text-type__cursor--hidden {
-  display: none;
-}
-
+/* =========================
+   VIDEO
+========================= */
 
 .video-wrapper {
   position: relative;
   width: 100%;
   max-width: 800px;
   margin: auto;
-  margin-top: 50px;
 }
 
 .video {
   width: 100%;
-  height: auto;
-  display: block;
   border-radius: 12px;
 }
 
@@ -394,25 +209,11 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  border: none;
-  
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,0,0.6);
   color: white;
-  font-size: 24px;
+  border: none;
   cursor: pointer;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: 0.3s ease;
-}
-
-.play-btn:hover {
-  background: rgba(0, 0, 0, 0.8);
-  transform: translate(-50%, -50%) scale(1.1);
 }

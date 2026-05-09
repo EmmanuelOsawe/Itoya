@@ -1,20 +1,20 @@
 import React from "react";
 import './App.css';
-import EquipmentCubes from "./component/ui/EquipmentCubes"; 
+import EquipmentsCubes from "./component/ui/EquipmentCubes"; 
 import ScrollToTop from "./component/ui/ScrollToTop.jsx"; 
 import TextType from './component/ui/TextType.jsx';
 import NewsletterMail from "./component/ui/NewsletterMail.jsx";
 
 function Equip() {
   return (
-<div classname="equip">
+  <div>
       {/*====== Start header Section ======*/}
       <header className="header-area-one">
         <div className="header-top-bar">
-
+          
           <img src="assets/images/logo.png" alt="Logo" className="h-logo img-fluid" /> 
 
-          <div className="footer-brand">
+          <div className="footer-brand responsive-header">
             <TextType
               text={["Welcome to", "Itoya Brothers Limited!"]}
               typingSpeed={75}
@@ -47,7 +47,7 @@ function Equip() {
               <li>
                 {" "}
                 <a
-                  href="mailto:charlesitoya@gmail.com"
+                  href="mailto:charlesitoya.@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -79,7 +79,6 @@ function Equip() {
                   title="Brand Logo"
                 >
                   {" "}
-                  
                 </a>
               </div>
               <div className="nav-menu">
@@ -89,13 +88,10 @@ function Equip() {
                 <nav className="main-menu">
                   <ul>
                     <li>
-                      <a href="/">
-                        Home
-                      </a>
-                      
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="/equipments">Equipment</a>
+                      <a href="/equipments">Equipments</a>
                     </li>
                     <li className="menu-item">
                       <a href="/contact">Contact</a>
@@ -121,7 +117,7 @@ function Equip() {
         <div className="row justify-content-center">
           <div className="col-lg-10">
             <div className="page-title text-center">
-              <h1 data-aos="fade-up"> Equipment</h1>
+              <h1 data-aos="fade-up"> Equipments</h1>
               <ul className="breadcrumbs-link d-flex justify-content-center" data-aos="fade-up">
               </ul>
             </div>
@@ -132,7 +128,7 @@ function Equip() {
   </section>
   {/*====== End Hero Section ======*/}
 <br></br><br></br><br></br>
-<EquipmentCubes />
+<EquipmentsCubes />
 
 <NewsletterMail />
 
@@ -150,8 +146,8 @@ function Equip() {
               <div className="col-lg-4 col-md-6" data-aos="fade-up">
                 <div className="widget about-widget mb-40">
                   <a href="index.html" className="brand-logo">
-                    <img
-                      src="assets/images/logo.png"
+                   <img
+                      src="assets/images/logobg.jpg"
                       alt="Logo"
                       className="logo"
                     />
@@ -190,7 +186,7 @@ function Equip() {
                       <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="/equipments">Equipment</a>
+                      <a href="/equipments">Equipments</a>
                     </li>
                     <li>
                       <a href="/contact">Contact</a>

@@ -68,7 +68,7 @@ const Hero = () => {
           >
             <div className="container">
               <div className="hero-content text-center">
-                <h1>Build Your Dream With Our Construction Equipment</h1>
+                <h1>Build Your Dream With Our Construction Equipments</h1>
 
                 <div className="hero-search-wrapper">
                   <form
@@ -172,7 +172,7 @@ const Hero = () => {
           >
             <div className="container">
               <div className="hero-content text-center">
-                <h1>We Provide Best Construction Equipment For You</h1>
+                <h1>We Provide Best Construction Equipments For You</h1>
 
                 <div className="hero-search-wrapper">
                   <form

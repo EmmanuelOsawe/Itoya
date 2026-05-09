@@ -11,10 +11,10 @@ function Contact() {
       {/*====== Start header Section ======*/}
       <header className="header-area-one">
         <div className="header-top-bar">
-
+          
           <img src="assets/images/logo.png" alt="Logo" className="h-logo img-fluid" /> 
 
-          <div className="footer-brand">
+          <div className="footer-brand responsive-header">
             <TextType
               text={["Welcome to", "Itoya Brothers Limited!"]}
               typingSpeed={75}
@@ -47,7 +47,7 @@ function Contact() {
               <li>
                 {" "}
                 <a
-                  href="mailto:charlesitoya@gmail.com"
+                  href="mailto:charlesitoya.@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -79,7 +79,6 @@ function Contact() {
                   title="Brand Logo"
                 >
                   {" "}
-                  
                 </a>
               </div>
               <div className="nav-menu">
@@ -89,13 +88,10 @@ function Contact() {
                 <nav className="main-menu">
                   <ul>
                     <li>
-                      <a href="/">
-                        Home
-                      </a>
-                      
+                      <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="/equipments">Equipment</a>
+                      <a href="/equipments">Equipments</a>
                     </li>
                     <li className="menu-item">
                       <a href="/contact">Contact</a>
@@ -206,7 +202,7 @@ function Contact() {
                 <div className="widget about-widget mb-40">
                   <a href="index.html" className="brand-logo">
                     <img
-                      src="assets/images/logo.png"
+                      src="assets/images/logobg.jpg"
                       alt="Logo"
                       className="logo"
                     />
@@ -245,7 +241,7 @@ function Contact() {
                       <a href="/">About</a>
                     </li>
                     <li>
-                      <a href="/equipments">Equipment</a>
+                      <a href="/equipments">Equipments</a>
                     </li>
                     <li>
                       <a href="/contact">Contact</a>

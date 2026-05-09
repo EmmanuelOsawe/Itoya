@@ -21,7 +21,7 @@ function Home() {
           
           <img src="assets/images/logo.png" alt="Logo" className="h-logo img-fluid" /> 
 
-          <div className="footer-brand">
+          <div className="footer-brand responsive-header">
             <TextType
               text={["Welcome to", "Itoya Brothers Limited!"]}
               typingSpeed={75}
@@ -98,7 +98,7 @@ function Home() {
                       <a href="/">Home</a>
                     </li>
                     <li>
-                      <a href="/equipments">Equipment</a>
+                      <a href="/equipments">Equipments</a>
                     </li>
                     <li className="menu-item">
                       <a href="/contact">Contact</a>
@@ -163,16 +163,21 @@ function Home() {
                 </div>
                 <br></br> <br></br>
                 <br></br>
-                <CircularText
-                  text="ITOYA*BROTHERS*LIMITED*"
-                  onHover="speedUp"
-                  spinDuration={20}
-                  className="custom-class"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
+                <div className="circular-wrapper">
+                 <div className="circular-main">
+                  <div className="circular-box mx-auto">
+                    <CircularText
+                    text="ITOYA*BROTHERS*LIMITED*"
+                    onHover="speedUp"
+                    spinDuration={20}/>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                  
       </section>
       {/*====== End About Section ======*/}
       <section
@@ -295,7 +300,7 @@ function Home() {
                   <h2>
                     <span className="count">3</span>
                   </h2>
-                  <h5>Equipment</h5>
+                  <h5>Equipments</h5>
                 </div>
               </div>
             </div>
@@ -352,7 +357,7 @@ function Home() {
             <div className="col-lg-6" data-aos="fade-up">
               <div className="section-title text-center mb-50">
                 <span className="sub-title">
-                  <span className="sub-bg">Equipment</span>
+                  <span className="sub-bg">Equipments</span>
                 </span>
               </div>
             </div>
@@ -368,7 +373,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/product/escavator.jpg"
@@ -427,7 +432,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/product/grader.jpg"
@@ -485,7 +490,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/product/escavator-2.jpg"
@@ -548,7 +553,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-4.jpg"
@@ -606,7 +611,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-5.jpg"
@@ -665,7 +670,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-6.jpg"
@@ -726,7 +731,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-1.jpg"
@@ -788,7 +793,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-2.jpg"
@@ -847,7 +852,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-3.jpg"
@@ -908,7 +913,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-4.jpg"
@@ -976,7 +981,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-5.jpg"
@@ -1051,7 +1056,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-6.jpg"
@@ -1112,7 +1117,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-1.jpg"
@@ -1180,7 +1185,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-2.jpg"
@@ -1255,7 +1260,7 @@ function Home() {
                           <a
                             href="contact.js"
                             target="_self"
-                            title="Equipment Image"
+                            title="Equipments Image"
                           >
                             <img
                               src="assets/images/pricing/price-3.jpg"
@@ -1385,7 +1390,7 @@ function Home() {
         className="footer-area footer-area-one bg_cover"
         style={{
           backgroundImage: "url(assets/images/bg/footer-bg-1.jpg)",
-          borderRadius: "20px",
+          borderRadius: "40px",
         }}
       >
         <div className="footer-widget">
@@ -1434,7 +1439,7 @@ function Home() {
                       <a href="#abt">About</a>
                     </li>
                     <li>
-                      <a href="/equipments">Equipment</a>
+                      <a href="/equipments">Equipments</a>
                     </li>
                     <li>
                       <a href="/contact">Contact</a>
