@@ -15,7 +15,7 @@ function Equip() {
           <img src="assets/images/logo.png" alt="Logo" className="h-logo img-fluid" /> 
 
           <div className="footer-brand responsive-header">
-            <TextType
+            {/* <TextType
               text={["Welcome to", "Itoya Brothers Limited!"]}
               typingSpeed={75}
               pauseDuration={1500}
@@ -23,7 +23,7 @@ function Equip() {
               cursorCharacter="|"
               textColors={["rgba(247, 251, 28, 1)", "#ffffff"]}
               className="hero-typing"
-            />
+            />  */}
 
             <ul className="footer-social">
               <li>
@@ -55,7 +55,7 @@ function Equip() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div>   
 
           <div className="container-fluid">
             <div className="row align-items-center">
@@ -251,8 +251,11 @@ function Equip() {
               <div className="col-lg-12">
                 <div className="copyright-text text-center">
                   <p>
-                    Copyright © 2025 <a href="index.html">Renowk</a>, All Rights
+                    Copyright © 2026 <a href="index.html">Itoya</a>, All Rights
                     Reserved.
+                  </p>
+                  <p>
+                    Built by <a href="https://emmanuel-mystery.netlify.app/" style={{ color: "lightgreen" }}> Mystery</a>
                   </p>
                 </div>
               </div>

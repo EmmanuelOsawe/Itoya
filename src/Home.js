@@ -9,7 +9,7 @@ import TestimonialSlider from "./component/ui/TestimonialSlider.jsx";
 import ScrollToTop from "./component/ui/ScrollToTop.jsx";
 import CircularText from "./component/ui/getRotationTransition.jsx";
 import NewsletterMail from "./component/ui/NewsletterMail.jsx";
-import TextType from './component/ui/TextType.jsx';
+//import TextType from './component/ui/TextType.jsx';
 import VideoPlayer from "./component/ui/VideoPlayer.jsx";
 
 function Home() {
@@ -22,7 +22,7 @@ function Home() {
           <img src="assets/images/logo.png" alt="Logo" className="h-logo img-fluid" /> 
 
           <div className="footer-brand responsive-header">
-            <TextType
+           {/* <TextType
               text={["Welcome to", "Itoya Brothers Limited!"]}
               typingSpeed={75}
               pauseDuration={1500}
@@ -30,7 +30,7 @@ function Home() {
               cursorCharacter="|"
               textColors={["rgba(247, 251, 28, 1)", "#ffffff"]}
               className="hero-typing"
-            />
+            /> */}
 
             <ul className="footer-social">
               <li>
@@ -62,7 +62,7 @@ function Home() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> 
 
           <div className="container-fluid">
             <div className="row align-items-center">
@@ -165,13 +165,13 @@ function Home() {
                 <br></br>
                 <div className="circular-wrapper">
                  <div className="circular-main">
-                  <div className="circular-box mx-auto">
+                  {/*<div className="circular-box mx-auto">
                     <CircularText
                     text="ITOYA*BROTHERS*LIMITED*"
                     onHover="speedUp"
                     spinDuration={20}/>
-                    </div>
-                    </div>
+                    </div> */}
+                    </div>  
                     </div>
                     </div>
                     </div>
@@ -282,7 +282,7 @@ function Home() {
       </section>
       {/*====== End Features Section ======*/}
       {/*====== Start Counter Section ======*/}
-      <section
+     {/* <section
         className="counter-area bg-with-overlay bg_cover pt-130 pb-90"
         style={{ backgroundImage: "url(assets/images/bg/counter-bg-1.jpg)" }}
         data-aos="zoom-in"
@@ -348,7 +348,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*====== End Counter Section ======*/}
       {/*====== Start Pricing Section ======*/}
       <section className="pricing-area pt-130 pb-90">
@@ -371,7 +371,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -415,7 +415,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -430,7 +430,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -473,7 +473,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -488,7 +488,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -532,7 +532,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -551,7 +551,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -594,7 +594,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -609,7 +609,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -653,7 +653,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -668,7 +668,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -710,7 +710,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -729,7 +729,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -776,7 +776,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -791,7 +791,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -835,7 +835,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -850,7 +850,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -892,7 +892,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -911,7 +911,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -964,7 +964,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -979,7 +979,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -1039,7 +1039,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -1054,7 +1054,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -1096,7 +1096,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -1115,7 +1115,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -1168,7 +1168,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -1183,7 +1183,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -1243,7 +1243,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -1258,7 +1258,7 @@ function Home() {
                       <div className="pricing-item pricing-item-one mb-40">
                         <div className="pricing-img">
                           <a
-                            href="contact.js"
+                            href="/equipments"
                             target="_self"
                             title="Equipments Image"
                           >
@@ -1300,7 +1300,7 @@ function Home() {
                               </li>
                             </ul>
                             <a
-                              href="contact.js"
+                              href="/equipments"
                               target="_self"
                               title="Reserve"
                               className="main-btn"
@@ -1504,8 +1504,12 @@ function Home() {
               <div className="col-lg-12">
                 <div className="copyright-text text-center">
                   <p>
-                    Copyright © 2025 <a href="index.html">Renowk</a>, All Rights
+                    Copyright © 2026 <a href="index.html">Itoyabrothers</a>, All Rights
                     Reserved.
+                  </p>
+                  <br />
+                  <p>
+                    Built by <a href="https://emmanuel-mystery.netlify.app/" style={{ color: "lightgreen" }}> Mystery</a>
                   </p>
                 </div>
               </div>

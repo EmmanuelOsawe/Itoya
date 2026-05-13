@@ -1,6 +1,10 @@
-import { useState, useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+import "swiper/css";
 
 export default function TestimonialSlider() {
+
   const testimonials = [
     {
       text: "Itoya really impressed us. Their Caterpillar machine delivered strong performance and handled our site work with ease. We’ll definitely rent from them again.",
@@ -24,51 +28,71 @@ export default function TestimonialSlider() {
     }
   ];
 
-  const [index, setIndex] = useState(0);
-
-  const nextSlide = () => {
-    setIndex((prev) => (prev + 1) % testimonials.length);
-  };
-
-  const prevSlide = () => {
-    setIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-  };
-
-  const visible = [
-    testimonials[index],
-    testimonials[(index + 1) % testimonials.length],
-    testimonials[(index + 2) % testimonials.length]
-  ];
-
-  // ✅ Auto slide (optional)
-  useEffect(() => {
-    const interval = setInterval(nextSlide, 4000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div className="testimonial-section">
-      <button className="arrow left" onClick={prevSlide}>❮</button>
-      <button className="arrow right" onClick={nextSlide}>❯</button>
 
-      <div className="row testimonial-slider-one">
-        {visible.map((item, i) => (
-          <div className="col-lg-4" key={i}>
+      <Swiper
+        modules={[Autoplay]}
+
+        loop={true}
+        grabCursor={true}
+        allowTouchMove={true}
+        spaceBetween={25}
+
+        autoplay={{
+          delay: 4000,
+
+          /* ✅ stops autoplay after touch/swipe on mobile */
+          disableOnInteraction: true,
+
+          /* ✅ stops autoplay on desktop hover */
+          pauseOnMouseEnter: true,
+        }}
+
+        slidesPerView={1}
+
+        breakpoints={{
+          768: {
+            slidesPerView: 2,
+          },
+
+          1200: {
+            slidesPerView: 3,
+          },
+        }}
+
+        className="testimonial-slider-one"
+      >
+
+        {testimonials.map((item, i) => (
+          <SwiperSlide key={i}>
+
             <div className="testimonial-item testimonial-item-one">
+
               <div className="testimonial-content">
+
                 <div className="quote">
                   <i className="flaticon-left-quote" />
                 </div>
 
                 <p>{item.text}</p>
+
                 <h5>
-                  {item.name} , <span className="location">{item.location}</span>
+                  {item.name} ,{" "}
+                  <span className="location">
+                    {item.location}
+                  </span>
                 </h5>
+
               </div>
+
             </div>
-          </div>
+
+          </SwiperSlide>
         ))}
-      </div>
+
+      </Swiper>
+
     </div>
   );
 }
