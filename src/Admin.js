@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Admin.css";
+import './App.css';
 
 export default function Admin() {
   const [isLogin, setIsLogin] = useState(true);
