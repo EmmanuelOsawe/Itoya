@@ -40,6 +40,19 @@ const EquipmentCubes = () => {
           "/assets/images/product/320bl/left.jpg",
         ]}
       />
+
+      <CubeViewer
+        title="Grader 140G Heavy Duty"
+        description="Reliable grader built for smooth road leveling and strong output."
+        images={[
+          "/assets/images/product/D8K/25.jpg",
+          "/assets/images/product/D8K/26.jpg",
+          "/assets/images/product/D8K/27.jpg",
+          "/assets/images/product/D8K/28.jpg",
+          "/assets/images/product/D8K/26.jpg",
+          "/assets/images/product/D8K/28.jpg",
+        ]}
+      />
     </div>
   );
 };
