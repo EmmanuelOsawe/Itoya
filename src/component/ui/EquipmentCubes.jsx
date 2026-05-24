@@ -42,8 +42,8 @@ const EquipmentCubes = () => {
       />
 
       <CubeViewer
-        title="Grader 140G Heavy Duty"
-        description="Reliable grader built for smooth road leveling and strong output."
+        title="D8K"
+        description="Reliable immense pushing power in large-scale earthmoving, mining, and land-clearing operations."
         images={[
           "/assets/images/product/D8K/25.jpg",
           "/assets/images/product/D8K/26.jpg",
