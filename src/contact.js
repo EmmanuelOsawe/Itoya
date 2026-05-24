@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import ContactForm from "./component/ui/form";
 import ScrollToTop from "./component/ui/ScrollToTop.jsx"; 
-import TextType from './component/ui/TextType.jsx';
+//import TextType from './component/ui/TextType.jsx';
 import NewsletterMail from "./component/ui/NewsletterMail.jsx";
 
 function Contact() {

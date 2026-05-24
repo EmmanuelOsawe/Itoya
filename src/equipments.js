@@ -2,7 +2,7 @@ import React from "react";
 import './App.css';
 import EquipmentsCubes from "./component/ui/EquipmentCubes"; 
 import ScrollToTop from "./component/ui/ScrollToTop.jsx"; 
-import TextType from './component/ui/TextType.jsx';
+//import TextType from './component/ui/TextType.jsx';
 import NewsletterMail from "./component/ui/NewsletterMail.jsx";
 
 function Equip() {
