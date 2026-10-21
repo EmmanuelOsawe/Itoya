@@ -1414,7 +1414,7 @@ function Home() {
                     <h5>Follow Us</h5>
                     <ul className="social-link">
                       <li>
-                        <a href="https://www.facebook.com" target="_blank">
+                        <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                           <i className="fab fa-facebook-f" />
                         </a>
                       </li>
