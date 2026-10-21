@@ -932,7 +932,8 @@ header .container-fluid {
 
 .header-area-one .header-top-bar {
 	background-color: #0C1239;
-	padding: 40px 0;
+	padding: -1px 0;
+	margin-top: -15px;
 }
 
 .lang-dropdown {

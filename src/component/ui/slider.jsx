@@ -38,10 +38,10 @@ const Hero = () => {
 
   return (
     <section className="hero-area">
-      <div className="hero-arrows">
+      {/* <div className="hero-arrows">
         <div className="hero-prev">‹</div>
         <div className="hero-next">›</div>
-      </div>
+      </div> */}
 
       <Swiper
         modules={[Navigation, Autoplay]}

@@ -7,7 +7,7 @@ import "swiper/css/autoplay";
 import LatestNews from "./component/ui/news.jsx";
 import TestimonialSlider from "./component/ui/TestimonialSlider.jsx";
 import ScrollToTop from "./component/ui/ScrollToTop.jsx";
-import CircularText from "./component/ui/getRotationTransition.jsx";
+// import CircularText from "./component/ui/getRotationTransition.jsx";
 import NewsletterMail from "./component/ui/NewsletterMail.jsx";
 //import TextType from './component/ui/TextType.jsx';
 import VideoPlayer from "./component/ui/VideoPlayer.jsx";
